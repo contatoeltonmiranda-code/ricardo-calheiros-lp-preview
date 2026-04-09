@@ -2,665 +2,670 @@
 <html lang="pt-PT">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Copy — LP Ricardo Calheiros</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Copy — Certificação em Coaching e Treino Canino · Ricardo Calheiros</title>
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#fafaf7;
-  --bg-alt:#f2efe7;
-  --text:#1a1814;
-  --text-muted:#6b6458;
-  --accent:#a3651a;
-  --accent-soft:#e8d9b8;
-  --border:#e4ddd0;
-  --code-bg:#f0ebe0;
+  --bg:#faf7f0;
+  --card:#ffffff;
+  --primary:#a3651a;
+  --primary-dark:#7a4a12;
+  --accent:#c8922a;
+  --accent-soft:#f3e7cb;
+  --text:#1f1814;
+  --muted:#6b5d4c;
+  --border:#e8ddc8;
+  --danger:#b85a40;
+  --success:#6fae8b;
+  --gold:#d4a84a;
 }
-html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box;margin:0;padding:0}
 body{
+  font-family:-apple-system,"Segoe UI","Inter","Helvetica Neue",sans-serif;
   background:var(--bg);
   color:var(--text);
-  font-family:'Inter',-apple-system,sans-serif;
-  font-size:16.5px;
-  line-height:1.7;
-  padding:0;
-}
-.wrap{
-  max-width:760px;
-  margin:0 auto;
-  padding:3.5rem 1.8rem 6rem;
-}
-header.doc-head{
-  padding-bottom:2rem;
-  margin-bottom:2.5rem;
-  border-bottom:1px solid var(--border);
-}
-header.doc-head .kicker{
-  font-size:.72rem;
-  font-weight:600;
-  letter-spacing:.14em;
-  text-transform:uppercase;
-  color:var(--accent);
-  margin-bottom:.7rem;
-}
-header.doc-head .title{
-  font-family:'Lora',serif;
-  font-size:2rem;
-  font-weight:700;
-  line-height:1.25;
-  color:var(--text);
-  margin-bottom:.4rem;
-}
-header.doc-head .meta{
-  font-size:.85rem;
-  color:var(--text-muted);
-}
-header.doc-head .meta a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
-header.doc-head .meta a:hover{color:var(--text)}
-
-#content{color:var(--text)}
-#content h1{
-  font-family:'Lora',serif;
-  font-size:1.9rem;
-  font-weight:700;
-  line-height:1.25;
-  margin:3rem 0 1.1rem;
-  padding-bottom:.5rem;
-  border-bottom:1px solid var(--border);
-  color:var(--text);
-}
-#content h1:first-child{margin-top:0}
-#content h2{
-  font-family:'Lora',serif;
-  font-size:1.45rem;
-  font-weight:700;
-  line-height:1.3;
-  margin:2.8rem 0 .9rem;
-  color:var(--text);
-  padding-top:.4rem;
-}
-#content h2::before{
-  content:'';
-  display:block;
-  width:2.6rem;
-  height:3px;
-  background:var(--accent);
-  margin-bottom:.9rem;
-  border-radius:2px;
-}
-#content h3{
-  font-family:'Lora',serif;
-  font-size:1.18rem;
-  font-weight:700;
-  margin:2rem 0 .6rem;
-  color:var(--text);
-}
-#content h4{
-  font-size:.95rem;
-  font-weight:700;
-  letter-spacing:.02em;
-  margin:1.5rem 0 .5rem;
-  color:var(--text);
-}
-#content p{
-  margin:.85rem 0;
-  color:var(--text);
-}
-#content strong{
-  color:var(--text);
-  font-weight:700;
-}
-#content em{
-  font-family:'Lora',serif;
-  font-style:italic;
-  color:var(--accent);
-  font-weight:600;
-}
-#content ul,#content ol{
-  margin:1rem 0 1rem 1.5rem;
-  padding-left:.6rem;
-}
-#content li{
-  margin:.45rem 0;
-  padding-left:.2rem;
   line-height:1.65;
+  padding:40px 20px;
 }
-#content li::marker{color:var(--accent)}
-#content blockquote{
-  margin:1.3rem 0;
-  padding:1rem 1.4rem;
-  border-left:3px solid var(--accent);
-  background:var(--bg-alt);
-  border-radius:0 4px 4px 0;
-  font-family:'Lora',serif;
-  font-style:italic;
-  color:var(--text);
-  font-size:1.02rem;
-  line-height:1.6;
-}
-#content blockquote p{margin:.4rem 0}
-#content hr{
-  border:none;
-  height:1px;
-  background:var(--border);
-  margin:3rem 0;
-}
-#content code{
-  font-family:ui-monospace,"SF Mono",Menlo,monospace;
-  font-size:.88rem;
-  background:var(--code-bg);
-  padding:.12rem .4rem;
-  border-radius:3px;
-  color:#7a4a12;
-}
-#content pre{
-  background:var(--code-bg);
-  padding:1rem 1.2rem;
-  border-radius:6px;
-  overflow-x:auto;
-  font-size:.86rem;
-  margin:1.2rem 0;
-}
-#content pre code{background:none;padding:0;color:inherit}
-#content table{
-  width:100%;
-  border-collapse:collapse;
-  margin:1.5rem 0;
-  font-size:.93rem;
-}
-#content table th,#content table td{
-  padding:.7rem .9rem;
-  text-align:left;
-  border-bottom:1px solid var(--border);
-}
-#content table th{
-  background:var(--bg-alt);
-  font-weight:700;
-  color:var(--text);
-}
-#content table tr:last-child td{border-bottom:none}
-#content a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent-soft);transition:border-color .15s}
-#content a:hover{border-color:var(--accent)}
-#content input[type="checkbox"]{margin-right:.5rem;accent-color:var(--accent)}
+.container{max-width:860px;margin:0 auto}
 
-footer.doc-foot{
-  margin-top:4rem;
-  padding-top:2rem;
-  border-top:1px solid var(--border);
-  font-size:.78rem;
-  color:var(--text-muted);
-  text-align:center;
+/* HEADER */
+.doc-header{
+  text-align:center;margin-bottom:36px;padding:28px;
+  background:linear-gradient(135deg,#f5ead3 0%,#f0e0b8 100%);
+  border-radius:16px;border:1px solid var(--border);
+}
+.doc-header h1{font-size:26px;color:var(--primary-dark);margin-bottom:8px}
+.doc-header p{color:var(--muted);font-size:14px}
+.doc-header .meta{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap;font-size:12px}
+.doc-header .meta span{background:white;padding:6px 12px;border-radius:20px;border:1px solid var(--border);color:var(--muted)}
+.doc-header .meta .ok{background:#f5ead3;color:var(--primary-dark);border-color:var(--accent-soft);font-weight:600}
+
+/* IMPL NOTE */
+.impl-note{
+  background:#fffbe6;border-left:4px solid var(--gold);
+  padding:14px 18px;border-radius:6px;margin:20px 0;
+  font-size:13px;color:#7a5f1f;
+}
+.impl-note strong{color:var(--primary-dark)}
+
+/* SECTION */
+.section{
+  background:var(--card);border-radius:14px;
+  padding:34px 38px;margin-bottom:24px;
+  border:1px solid var(--border);
+  box-shadow:0 1px 3px rgba(0,0,0,0.02);
+}
+.section-label{
+  display:inline-block;font-size:11px;font-weight:700;
+  letter-spacing:1.2px;color:var(--primary);text-transform:uppercase;
+  background:var(--accent-soft);padding:4px 10px;border-radius:20px;
+  margin-bottom:14px;
+}
+.pre-head{font-size:13px;color:var(--primary);text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:10px}
+.h1{font-size:34px;line-height:1.2;font-weight:800;color:var(--text);margin-bottom:14px;letter-spacing:-0.5px}
+.h2{font-size:26px;line-height:1.25;font-weight:700;color:var(--text);margin-bottom:12px}
+.h3{font-size:19px;font-weight:700;color:var(--text);margin:16px 0 8px}
+.sub{font-size:17px;color:var(--muted);margin-bottom:22px}
+p{margin-bottom:14px;color:var(--text);font-size:16px}
+.section strong{color:var(--text)}
+
+.cta{
+  display:inline-block;background:var(--primary);color:white;
+  font-weight:700;text-transform:uppercase;letter-spacing:0.6px;
+  padding:17px 32px;border-radius:50px;text-decoration:none;
+  font-size:14px;box-shadow:0 6px 18px rgba(163,101,26,0.32);
+  margin:14px 0 8px;
+}
+.micro{font-size:13px;color:var(--muted);margin-top:6px}
+
+/* BULLETS */
+.bullets{list-style:none;margin:14px 0}
+.bullets li{padding:10px 0 10px 32px;position:relative;font-size:16px;border-bottom:1px dashed var(--border)}
+.bullets li:last-child{border-bottom:none}
+.bullets li::before{
+  content:"✓";position:absolute;left:0;top:10px;
+  width:22px;height:22px;background:var(--accent);color:white;
+  border-radius:50%;display:flex;align-items:center;
+  justify-content:center;font-size:13px;font-weight:700;
 }
 
-.loader{
-  padding:4rem 0;
-  text-align:center;
-  color:var(--text-muted);
-  font-size:.9rem;
-}
-.error{
-  padding:2rem;
-  border:1px solid #d4a0a0;
-  background:#fbeeee;
-  border-radius:6px;
-  color:#8a3030;
+/* CARDS GRID */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:20px 0}
+.card{background:#fbf5e6;border-radius:12px;padding:20px;border-left:4px solid var(--primary)}
+.card h4{font-size:16px;color:var(--primary-dark);margin-bottom:6px}
+.card p{font-size:14px;margin:0;color:var(--muted)}
+
+/* TWO COL */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:18px 0}
+.col{padding:20px;border-radius:10px}
+.col.yes{background:#f2f9f5;border-left:4px solid var(--success)}
+.col.no{background:#fbeeea;border-left:4px solid var(--danger)}
+.col.profile-a{background:#f5ead3;border-left:4px solid var(--primary)}
+.col.profile-b{background:#ebe1cc;border-left:4px solid var(--primary-dark)}
+.col h4{font-size:15px;margin-bottom:12px;color:var(--primary-dark)}
+.col ul{list-style:none}
+.col ul li{padding:7px 0 7px 22px;position:relative;font-size:14px;line-height:1.55}
+.col.yes ul li::before{content:"✓";color:var(--success);position:absolute;left:0;font-weight:700}
+.col.no ul li::before{content:"✕";color:var(--danger);position:absolute;left:0;font-weight:700}
+.col.profile-a ul li::before{content:"→";color:var(--primary);position:absolute;left:0;font-weight:700}
+.col.profile-b ul li::before{content:"→";color:var(--primary-dark);position:absolute;left:0;font-weight:700}
+
+/* HIGHLIGHT */
+.highlight-box{
+  background:linear-gradient(135deg,#f5ead3 0%,#e8dfc5 100%);
+  border-left:5px solid var(--primary);
+  padding:22px 26px;border-radius:10px;margin:20px 0;
+  font-size:17px;font-weight:600;color:var(--primary-dark);line-height:1.55;
 }
 
-@media(max-width:620px){
-  .wrap{padding:2.2rem 1.2rem 4rem}
-  header.doc-head .title{font-size:1.55rem}
-  #content h1{font-size:1.55rem}
-  #content h2{font-size:1.25rem}
-  #content h3{font-size:1.08rem}
-  body{font-size:15.5px}
+/* QUOTE */
+.quote-box{
+  background:#fbf6e8;border-left:4px solid var(--accent);
+  padding:22px 28px;border-radius:8px;margin:20px 0;
+  font-family:Georgia,serif;font-style:italic;
+  font-size:18px;color:var(--text);line-height:1.55;
+}
+.quote-box .cite{display:block;margin-top:14px;font-size:13px;font-style:normal;color:var(--muted);font-weight:600}
+.quote-box .cite::before{content:"— "}
+
+/* BADGE */
+.badge-strip{
+  display:inline-block;background:var(--primary-dark);color:white;
+  padding:10px 18px;border-radius:6px;margin:12px 0;
+  font-size:13px;font-weight:700;letter-spacing:0.3px;
+}
+.badge-strip::before{content:"★ ";color:var(--gold)}
+
+/* PILLARS */
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}
+.pillar{background:#fbf5e6;border-radius:10px;padding:20px;border:1px solid var(--border);border-top:3px solid var(--primary)}
+.pillar .num{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:1.5px;margin-bottom:6px;display:block}
+.pillar h4{color:var(--primary-dark);font-size:16px;margin-bottom:8px}
+.pillar p{font-size:14px;color:var(--muted);margin:0;line-height:1.6}
+
+/* MODULES LIST */
+.modules-list{list-style:none;margin:16px 0;counter-reset:mod;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.modules-list li{padding:14px 16px 14px 56px;position:relative;font-size:14px;background:#fbf5e6;border-radius:8px;border-left:3px solid var(--primary);counter-increment:mod}
+.modules-list li::before{
+  content:counter(mod,decimal-leading-zero);
+  position:absolute;left:14px;top:14px;
+  width:32px;height:32px;border:2px solid var(--primary);
+  border-radius:6px;background:white;color:var(--primary-dark);
+  font-weight:800;font-size:13px;
+  display:flex;align-items:center;justify-content:center;
+}
+.modules-list li strong{color:var(--primary-dark);display:block;margin-bottom:3px}
+.modules-list li span{color:var(--muted);font-size:13.5px;line-height:1.55}
+
+/* STEP LIST */
+.step-list{list-style:none;margin:20px 0;counter-reset:stp;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.step-list li{padding:20px 20px 20px 68px;position:relative;background:#fbf5e6;border-radius:10px;border-left:3px solid var(--primary);counter-increment:stp}
+.step-list li::before{
+  content:counter(stp);
+  position:absolute;left:18px;top:18px;
+  width:38px;height:38px;border-radius:50%;
+  background:var(--primary);color:white;
+  font-weight:800;font-size:16px;
+  display:flex;align-items:center;justify-content:center;
+}
+.step-list li strong{display:block;color:var(--primary-dark);margin-bottom:5px;font-size:15px}
+.step-list li span{color:var(--muted);font-size:14px;line-height:1.55}
+
+/* PRICING */
+.pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0}
+.price-card{background:#fbf5e6;border:1px solid var(--border);border-radius:14px;padding:28px;position:relative}
+.price-card.featured{background:linear-gradient(135deg,#fff9ea 0%,#f5ead3 100%);border:2px solid var(--primary);box-shadow:0 8px 28px rgba(163,101,26,0.15)}
+.price-card .badge-top{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--primary);color:white;font-size:10px;font-weight:800;letter-spacing:1.3px;padding:5px 14px;border-radius:20px;text-transform:uppercase}
+.price-card .plan-name{font-size:12px;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:1.2px;margin-bottom:4px}
+.price-card .plan-type{font-size:20px;font-weight:700;color:var(--text);margin-bottom:16px}
+.price-card .price{font-size:38px;font-weight:800;color:var(--primary-dark);line-height:1;margin-bottom:4px}
+.price-card .price-freq{font-size:13px;color:var(--muted);margin-bottom:8px}
+.price-card .price-total{font-size:14px;color:var(--text);margin-bottom:2px}
+.price-card .price-save{font-size:13px;color:var(--primary);font-weight:600;margin-bottom:16px}
+.price-card ul{list-style:none;margin:16px 0}
+.price-card ul li{padding:8px 0 8px 24px;position:relative;font-size:14px;color:var(--text);line-height:1.5}
+.price-card ul li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700}
+.price-card .cta{display:block;text-align:center;margin:16px 0 0;padding:14px;font-size:13px}
+
+/* FAQ */
+.faq-item{padding:16px 0;border-bottom:1px solid var(--border)}
+.faq-item:last-child{border-bottom:none}
+.faq-item .q{font-weight:700;color:var(--primary-dark);margin-bottom:8px;font-size:16px}
+.faq-item .q::before{content:"? ";color:var(--accent)}
+.faq-item .a{font-size:15px;color:var(--muted);line-height:1.65}
+
+/* TESTIMONIALS */
+.test-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}
+.test-card{background:#fbf5e6;border:1px dashed var(--primary);border-radius:10px;padding:22px}
+.test-card .stars{color:var(--gold);font-size:14px;margin-bottom:10px}
+.test-card .quote-text{font-style:italic;color:var(--muted);font-size:14px;line-height:1.6;margin-bottom:14px}
+.test-card .author{font-size:12px;font-weight:700;color:var(--primary-dark);text-transform:uppercase;letter-spacing:0.5px}
+.test-card code{background:rgba(163,101,26,0.1);padding:2px 6px;border-radius:4px;font-size:12px;color:var(--primary-dark)}
+
+/* VALIDATION */
+.validation-section{background:#fffbe6;border:2px solid var(--gold);border-radius:14px;padding:30px 34px;margin:28px 0}
+.validation-section h2{color:#7a5f1f;font-size:22px;margin-bottom:8px}
+.validation-section .sub{color:#7a5f1f;opacity:0.85}
+.validation-section h3{color:var(--primary-dark);font-size:15px;margin:22px 0 8px;text-transform:uppercase;letter-spacing:0.8px;padding-top:14px;border-top:1px dashed var(--border)}
+.validation-section h3:first-of-type{border-top:none;padding-top:0;margin-top:16px}
+.validation-section ul{list-style:none;margin:6px 0}
+.validation-section ul li{padding:6px 0 6px 26px;position:relative;font-size:14px;color:#5a4a24;line-height:1.55}
+.validation-section ul li::before{content:"☐";position:absolute;left:0;color:var(--primary);font-size:18px;line-height:1;top:6px}
+.validation-section ul li strong{color:var(--primary-dark)}
+
+footer{text-align:center;padding:34px;color:var(--muted);font-size:13px}
+footer a{color:var(--muted);text-decoration:none;margin:0 8px}
+
+@media(max-width:720px){
+  body{padding:20px 12px}
+  .section{padding:24px 22px}
+  .validation-section{padding:22px 20px}
+  .h1{font-size:26px}
+  .h2{font-size:22px}
+  .h3{font-size:17px}
+  .two-col,.pricing-grid,.test-grid,.modules-list,.step-list{grid-template-columns:1fr}
+  .doc-header h1{font-size:22px}
 }
 </style>
 </head>
 <body>
+<div class="container">
 
-<div class="wrap">
-
-<header class="doc-head">
-  <div class="kicker">Documento de leitura</div>
-  <h1 class="title">Copy — Landing Page Ricardo Calheiros</h1>
+<div class="doc-header">
+  <h1>CERTIFICAÇÃO EM COACHING E TREINO CANINO — Ricardo Calheiros</h1>
+  <p>Landing Page · Copy Final · v2 (refeita a partir do forms)</p>
   <div class="meta">
-    Certificação em Coaching e Treino Canino · PT-PT ·
-    <a href="index.html">ver LP de referência visual →</a>
+    <span>Público: treinadores e aspirantes</span>
+    <span>Idioma: PT-PT</span>
+    <span>Moeda: EURO</span>
+    <span>Mercado: Portugal</span>
+    <span class="ok">v2 — forms only</span>
   </div>
-</header>
+</div>
 
-<article id="content">
-<h1>v2 — Copy Final (refeita do zero · base: forms)</h1>
-<blockquote>
-<p>Copy da LP do Ricardo Calheiros — Certificação em Coaching e Treino Canino.
-Língua: Português de Portugal (PT-PT). Mercado: Portugal.
-Base: questionário Google Forms preenchido pelo Ricardo (ficheiro PDF no Briefing/).
-Esta versão substitui a anterior — não usa ricardo-equilibrio.html como referência.
-Clarificação: &quot;Coaching&quot; aqui refere-se à abordagem de coaching APLICADA ao treino canino (sistema familiar do cão), NÃO a coaching humano/carreira.
-Data de início (placeholder): 9 de Maio de 2026.</p>
-</blockquote>
-<hr>
-<h2>1. NAV (fixa)</h2>
-<p><strong>[Logo — texto]</strong>
-Ricardo Calheiros</p>
-<p><strong>[Links]</strong>
-Método · Currículo · Investimento · FAQ</p>
-<p><strong>[CTA — botão]</strong>
-Candidatar-me</p>
-<hr>
-<h2>2. HERO</h2>
-<p><strong>[Pill · pretítulo]</strong>
-Próxima turma · 9 de Maio de 2026 · Candidaturas abertas</p>
-<p><strong>[H1]</strong>
-Torna-te treinador canino de elite — e constrói um negócio que factura entre €2.000 e €30.000 por mês.</p>
-<p><strong>[Lead — parágrafo]</strong>
-Certificação em Coaching e Treino Canino. Seis meses, online via Zoom, nos formatos Turma ou Individual. Ensinada pelo único treinador reconhecido em Portugal no Koehler Method of Dog Training — um dos apenas 4 na Europa.</p>
-<p><strong>[3 micro-badges · linha horizontal]</strong></p>
-<ul>
-<li>1 de apenas 4 treinadores Koehler reconhecidos na Europa</li>
-<li>€2.000 a €30.000+/mês · valores reportados por alunos reais</li>
-<li>6 meses · online · Turma ou Individual</li>
-</ul>
-<p><strong>[CTA primário — botão grande]</strong>
-Candidatar-me à Próxima Turma →</p>
-<p><strong>[CTA secundário — link com seta]</strong>
-Ver como funciona ↓</p>
-<p><strong>[Microtexto — cinzento claro, abaixo dos CTAs]</strong>
-Candidatura prévia obrigatória · vagas limitadas</p>
-<hr>
-<h2>3. URGENCY BAR (faixa fina)</h2>
-<p><strong>[Texto centrado]</strong>
-Próxima turma começa a <strong>9 de Maio de 2026</strong> · vagas limitadas · candidatura prévia obrigatória</p>
-<hr>
-<h2>4. FOR WHO — &quot;Foi feita para dois perfis&quot;</h2>
-<p><strong>[Tag]</strong>
-Para Quem É</p>
-<p><strong>[H2]</strong>
-Foi desenhada para dois perfis. Talvez sejas um deles.</p>
-<p><strong>[Lead]</strong>
-Esta certificação junta, numa só formação, os dois pontos de partida mais comuns — mas exigentes — do mercado português.</p>
-<p><strong>[2 colunas lado a lado]</strong></p>
-<h3>Coluna A — Aspirante a treinador canino</h3>
-<ul>
-<li>Estás num trabalho que te esvazia e contas os cêntimos ao fim do mês</li>
-<li>Adoras cães e queres transformar essa paixão numa carreira sólida</li>
-<li>Queres acordar com propósito e controlar o teu próprio tempo</li>
-<li>Queres construir reputação e independência financeira real</li>
-</ul>
-<h3>Coluna B — Treinador canino em actividade</h3>
-<ul>
-<li>Já trabalhas com cães, mas a agenda é instável e a facturação não escala</li>
-<li>Os casos difíceis — agressividade, ansiedade de separação — continuam a derrotar-te</li>
-<li>Comparas-te com outros treinadores nas redes e sentes-te para trás</li>
-<li>Queres posicionamento digital sólido e facturação mensal estável</li>
-</ul>
-<p><strong>[Fecho — centrado, abaixo das colunas]</strong>
-Se te revês em qualquer um destes dois perfis, continua a ler. O resto desta página foi escrito para ti.</p>
-<hr>
-<h2>5. PROBLEM — &quot;O treino canino em Portugal está partido em dois&quot;</h2>
-<p><strong>[Tag]</strong>
-A Realidade do Mercado</p>
-<p><strong>[H2]</strong>
-O treino canino em Portugal está partido em dois. E no meio ficam as famílias.</p>
-<p><strong>[Parágrafo 1]</strong>
-De um lado, os treinadores do espectáculo. Vídeos virais, cães impecáveis em câmara — e zero transformação real quando o telemóvel se desliga.</p>
-<p><strong>[Parágrafo 2]</strong>
-Do outro, a abordagem suave — tudo se resolve com petiscos e carinho. Mas o cão ansioso continua ansioso, o agressivo continua agressivo e a família continua em guerra dentro de casa.</p>
-<p><strong>[Parágrafo 3]</strong>
-No meio, milhares de famílias portuguesas vivem em conflito diário com os seus cães. E tu — treinador em actividade ou aspirante — ficas preso a abordagens superficiais que não resolvem nada a fundo. Sem resultados duradouros. Sem carreira sólida.</p>
-<p><strong>[Quote em destaque]</strong></p>
-<blockquote>
-<p>&quot;O problema raramente está no cão. Está na relação entre o cão e a família à volta. Enquanto ninguém tratar disso, o caos continua.&quot;</p>
-<p>— Ricardo Calheiros</p>
-</blockquote>
-<p><strong>[Fecho — parágrafo curto]</strong>
-Esta certificação nasce exactamente para preencher esse vazio.</p>
-<hr>
-<h2>6. PROMISE — &quot;O que vais ter no fim dos 6 meses&quot;</h2>
-<p><strong>[Tag]</strong>
-A Transformação</p>
-<p><strong>[H2]</strong>
-Seis meses. Três transformações reais.</p>
-<p><strong>[Lead]</strong>
-Não vendemos sonhos. Estas são as três transformações concretas que os alunos do Ricardo reportam quando terminam a certificação.</p>
-<p><strong>[3 cards — grid horizontal]</strong></p>
-<h3>01 · Independência e propósito</h3>
-<p>Acordas a fazer o que amas. Escolhes os teus clientes. Defines o teu horário. Trabalhas com um sentido que o emprego antigo nunca te deu. Estás presente para a tua família — porque agora controlas o teu tempo.</p>
-<h3>02 · Técnica com resultados reais</h3>
-<p>Aprendes a resolver os casos que outros treinadores dão por perdidos: agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos. Vais ver transformações que não pensavas serem possíveis.</p>
-<h3>03 · Projecção digital e facturação</h3>
-<p>Sais com um modelo de negócio pronto a executar, um posicionamento digital definido e um plano claro para facturares entre €2.000 e €30.000+ por mês — consoante o teu ritmo, o teu compromisso e a tua capacidade de escalar.</p>
-<p><strong>[Nota — microtexto centrado abaixo dos cards]</strong>
-Estes valores são os reportados por alunos reais em actividade. Não há garantias — o resultado depende do compromisso, do trabalho e da capacidade de cada aluno para aplicar o que aprende.</p>
-<hr>
-<h2>7. STORY — &quot;Quem é o Ricardo&quot;</h2>
-<p><strong>[Tag]</strong>
-A História</p>
-<p><strong>[H2]</strong>
-Não me tornei treinador porque era o meu sonho. Tornei-me porque precisei.</p>
-<p><strong>[Foto lateral sticky — retrato do Ricardo]</strong></p>
-<p><strong>[Parágrafo 1]</strong>
-Sou o Ricardo Calheiros. Natural do Porto, casado, pai de dois meninos.</p>
-<p><strong>[Parágrafo 2]</strong>
-Durante vários anos trabalhei como terapeuta de casal e Coach. O meu dia-a-dia era sentar-me em frente a sistemas humanos — casais, famílias, pessoas com dores emocionais profundas. Aprendi a ler dinâmicas, padrões e o que move as pessoas por dentro.</p>
-<p><strong>[Parágrafo 3]</strong>
-Depois veio um problema grave de saúde que mudou tudo. Tive de reinventar o meu trabalho praticamente do zero.</p>
-<p><strong>[Parágrafo 4]</strong>
-Encontrei no treino canino o novo caminho — mas trouxe comigo dez anos de experiência em terapia familiar e coaching humano. E foi aí que percebi exactamente o que faltava ao treino canino tal como é feito na maior parte do mercado.</p>
-<p><strong>[Quote em destaque]</strong></p>
-<blockquote>
-<p>&quot;Percebi que não estava a treinar só o cão. Estava a tratar o sistema inteiro à volta dele. E é aí que mora quase toda a solução dos casos difíceis.&quot;</p>
-</blockquote>
-<p><strong>[Parágrafo final]</strong>
-Hoje sou treinador canino há dez anos. Uso o Koehler Method of Dog Training como método de preferência — e sou um dos apenas <strong>4 treinadores reconhecidos neste método em toda a Europa.</strong></p>
-<p><strong>[Badge dourada]</strong>
-Koehler Method of Dog Training · 1 dos 4 treinadores reconhecidos na Europa</p>
-<hr>
-<h2>8. METHOD — &quot;O método, em 3 dimensões&quot;</h2>
-<p><strong>[Tag]</strong>
-O Método</p>
-<p><strong>[H2]</strong>
-Porque os problemas do cão raramente são só do cão.</p>
-<p><strong>[Lead]</strong>
-Treinar o cão isoladamente não resolve. O cão vive inserido num sistema familiar — e esse sistema é metade do problema e praticamente toda a solução. Esta certificação ensina-te a trabalhar as três dimensões ao mesmo tempo.</p>
-<p><strong>[3 Pilares · grid horizontal · ícones]</strong></p>
-<h3>01 · Ciência do comportamento canino</h3>
-<p>Fundamentos sólidos de como o cão aprende, do que responde e como comunica. Base técnica rigorosa — incluindo o Koehler Method of Dog Training ensinado pelo único formador reconhecido em Portugal.</p>
-<h3>02 · Psicologia humana aplicada</h3>
-<p>Como os padrões emocionais dos donos criam, perpetuam ou agravam os problemas do cão. Como ler esses padrões e como intervires sem ferir a relação. É aqui que mora a causa raiz da maioria dos casos difíceis.</p>
-<h3>03 · Dinâmica do sistema familiar</h3>
-<p>Reorganizar a rotina, os limites e os papéis dentro de casa para que o trabalho com o cão segure na vida real — e não só durante a sessão. Esta é a peça que quase nenhuma formação em Portugal ensina.</p>
-<p><strong>[Nota importante — bloco destacado, tipografia menor]</strong>
-A vertente de &quot;coaching&quot; desta certificação refere-se a esta abordagem aplicada — ferramentas de coaching usadas por ti, futuro treinador, para intervires no sistema familiar do cão. Não é uma formação em coaching humano nem em desenvolvimento de carreira. Sais daqui como treinador canino de elite — com ferramentas que a maioria dos outros treinadores nunca toca.</p>
-<hr>
-<h2>9. LEARN — &quot;O que vais dominar&quot;</h2>
-<p><strong>[Tag]</strong>
-Currículo</p>
-<p><strong>[H2]</strong>
-O que vais dominar ao longo dos 6 meses.</p>
-<p><strong>[Lead]</strong>
-O currículo foi desenhado para cobrir tudo aquilo que um treinador canino de elite precisa de dominar — da técnica mais rigorosa ao modelo de negócio que sustenta a carreira.</p>
-<p><strong>[8 módulos numerados · grid 2 colunas]</strong></p>
-<h3>01 · Comportamento canino a fundo</h3>
-<p>Leitura, comunicação e aprendizagem do cão. Base científica sólida para que cada decisão técnica tenha um porquê claro.</p>
-<h3>02 · Padrões emocionais dos donos</h3>
-<p>Identificação e intervenção na peça humana do problema. Como a ansiedade, o medo ou a impulsividade do dono moldam o comportamento do cão — e como lidar com isso.</p>
-<h3>03 · Estruturas de treino equilibradas</h3>
-<p>Protocolos que funcionam fora da sessão, no quotidiano real da família. Obediência sólida que se mantém quando ninguém está a ver.</p>
-<h3>04 · Casos complexos</h3>
-<p>Agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos. Os casos onde a maioria dos treinadores desiste e que aqui vais aprender a ler e a resolver.</p>
-<h3>05 · Koehler Method of Dog Training</h3>
-<p>O método de preferência do Ricardo, ensinado pelo único formador reconhecido em Portugal e um dos apenas 4 na Europa.</p>
-<h3>06 · Coaching aplicado ao sistema familiar</h3>
-<p>Ferramentas de intervenção no ambiente humano do cão. Como fazer a família toda caminhar na mesma direcção — sem a qual nenhum treino aguenta.</p>
-<h3>07 · Modelo de negócio para treinador canino</h3>
-<p>Preços, serviços, funil de clientes, margens. Tudo o que precisas para transformar a tua prática numa operação rentável e estável.</p>
-<h3>08 · Posicionamento digital e conteúdo</h3>
-<p>Como construíres uma presença online que te traz clientes e te permite facturar €2.000 a €30.000+/mês. O lado do negócio que distingue quem sobrevive de quem escala.</p>
-<hr>
-<h2>10. INCLUDES — &quot;O que está incluído&quot;</h2>
-<p><strong>[Tag]</strong>
-Incluído</p>
-<p><strong>[H2]</strong>
-Tudo o que precisas para saíres daqui como profissional de elite.</p>
-<p><strong>[6 cards · grid 3x2 · ícones]</strong></p>
-<h3>Aulas ao vivo · Zoom</h3>
-<p>Sessões semanais com o Ricardo às sextas-feiras, às 9h. Em tempo real e com interacção directa.</p>
-<h3>Gravações sem limite de tempo</h3>
-<p>Revês cada aula quando quiseres e as vezes que quiseres. Ficam contigo antes, durante e depois da certificação.</p>
-<h3>Acompanhamento semanal</h3>
-<p>Comunidade privada com feedback contínuo, partilha de casos e correcção permanente entre aulas.</p>
-<h3>Análise do teu trabalho em campo</h3>
-<p>Envias vídeos do teu trabalho com o cão, o Ricardo vê, comenta e corrige. Aprendes com erros reais — os teus.</p>
-<h3>Exame prático final</h3>
-<p>Avaliação com cão em contexto real — controlo com e sem trela. Não passas porque pagaste. Passas porque sabes.</p>
-<h3>Certificado oficial de conclusão</h3>
-<p>A tua credencial formal da Certificação em Coaching e Treino Canino. A prova visível de quem és e de onde vens.</p>
-<hr>
-<h2>11. BONUS — &quot;Dois bónus por dentro&quot;</h2>
-<p><strong>[Tag]</strong>
-Bónus</p>
-<p><strong>[H2]</strong>
-Dois dias de imersão — gravados e teus para sempre.</p>
-<p><strong>[Lead]</strong>
-Além do currículo principal, qualquer aluno — Turma ou Individual — recebe dois dias completos de imersão já gravados e disponíveis desde o primeiro dia da certificação.</p>
-<p><strong>[2 cards grandes lado a lado]</strong></p>
-<h3>Bónus 1 · Imersão em Agressividade</h3>
-<p>Um dia completo dedicado a um dos temas mais difíceis e mais procurados do mercado. Agressividade a pessoas, a outros cães, por recurso, por medo. O Ricardo é especialista nesta área e é por aqui que muitos alunos começam a diferenciar-se no mercado.</p>
-<h3>Bónus 2 · Imersão em Marketing e Estratégia de Negócio</h3>
-<p>Um dia completo sobre como montar o teu negócio, posicionar-te no digital, cobrar o que vales e construir uma agenda estável. O atalho directo para transformares o que aprendes em facturação real.</p>
-<p><strong>[Nota — microtexto]</strong>
-Ambos os bónus são entregues logo no início da certificação. Não estão dependentes de progressão nem de upgrade.</p>
-<hr>
-<h2>12. TESTIMONIALS — &quot;Quem já fez esta viagem&quot;</h2>
-<p><strong>[Tag]</strong>
-Alunos</p>
-<p><strong>[H2]</strong>
-O que dizem quem já passou por aqui.</p>
-<p><strong>[Grid 2x2 · 4 depoimentos — PLACEHOLDERS a preencher]</strong></p>
-<p><strong>Depoimento 1</strong>
-★★★★★</p>
-<blockquote>
-<p><code>[DEPOIMENTO 1 — citação directa do aluno, 2-4 linhas, resultado concreto]</code></p>
-<p><strong>[Nome do aluno]</strong> — [contexto: aspirante que mudou de carreira / treinador que escalou / etc.]</p>
-</blockquote>
-<p><strong>Depoimento 2</strong>
-★★★★★</p>
-<blockquote>
-<p><code>[DEPOIMENTO 2 — citação directa do aluno, 2-4 linhas, resultado concreto]</code></p>
-<p><strong>[Nome do aluno]</strong> — [contexto]</p>
-</blockquote>
-<p><strong>Depoimento 3</strong>
-★★★★★</p>
-<blockquote>
-<p><code>[DEPOIMENTO 3 — citação directa do aluno, 2-4 linhas, resultado concreto]</code></p>
-<p><strong>[Nome do aluno]</strong> — [contexto]</p>
-</blockquote>
-<p><strong>Depoimento 4</strong>
-★★★★★</p>
-<blockquote>
-<p><code>[DEPOIMENTO 4 — citação directa do aluno, 2-4 linhas, resultado concreto]</code></p>
-<p><strong>[Nome do aluno]</strong> — [contexto]</p>
-</blockquote>
-<p><strong>[Nota abaixo do grid]</strong>
-A prova social em vídeo está disponível nas redes sociais do Ricardo.</p>
-<hr>
-<h2>13. PRICING — &quot;Dois formatos. Um compromisso&quot;</h2>
-<p><strong>[Tag]</strong>
-Investimento</p>
-<p><strong>[H2]</strong>
-Dois formatos. Um compromisso.</p>
-<p><strong>[Lead]</strong>
-Os dois formatos incluem exactamente o mesmo currículo, os mesmos bónus, o mesmo exame final e o mesmo certificado oficial. A diferença está no nível de atenção directa do Ricardo e no ritmo em que avanças.</p>
-<p><strong>[Bloco de racional — antes dos cards, em destaque]</strong>
-O preço é alto por design. É um filtro. O que investes aqui é, em média, o que um dos nossos alunos factura no primeiro ou no segundo mês depois de terminar a certificação — desde que aplique a fundo o que aprendeu.</p>
-<p><strong>[Grid 2 colunas — cards de preço]</strong></p>
-<hr>
-<h3>Plano 1 — Turma</h3>
-<p><strong>Acompanhamento em grupo</strong></p>
-<p><strong>€370/mês</strong> · 6 meses
-Total: <strong>€2.220</strong></p>
-<p><strong>À vista: €2.000</strong> <em>(poupas €220)</em></p>
-<p><strong>O que está incluído:</strong></p>
-<ul>
-<li>Aulas ao vivo semanais (Zoom, sextas às 9h)</li>
-<li>Gravações de todas as aulas, sem limite de tempo</li>
-<li>Comunidade privada com acompanhamento contínuo</li>
-<li>Análise de vídeos do teu trabalho em campo</li>
-<li>Exame prático final + certificado oficial</li>
-<li>Bónus: Imersão em Agressividade + Imersão em Marketing e Negócio</li>
-</ul>
-<p><strong>[CTA]</strong>
-Candidatar-me ao Grupo →</p>
-<hr>
-<h3>Plano 2 — Individual <em>[badge: MAIS COMPLETO]</em></h3>
-<p><strong>Acompanhamento individual</strong></p>
-<p><strong>€470/mês</strong> · 6 meses
-Total: <strong>€2.820</strong></p>
-<p><strong>À vista: €2.400</strong> <em>(poupas €420 · 15% de desconto)</em></p>
-<p><strong>O que está incluído:</strong></p>
-<ul>
-<li><strong>Tudo o que está no plano Turma</strong></li>
-<li><strong>Acompanhamento individual</strong> — ritmo e foco adaptados ao teu ponto de partida</li>
-<li><strong>Feedback directo e personalizado</strong> do Ricardo, fora dos horários de grupo</li>
-<li><strong>Possibilidade de sessões presenciais</strong></li>
-<li>Acesso prioritário e atenção dedicada</li>
-</ul>
-<p><strong>[CTA]</strong>
-Candidatar-me ao Individual →</p>
-<hr>
-<p><strong>[Microtexto — centrado, abaixo dos cards]</strong>
-A inscrição conta como primeira mensalidade. Duração: 6 meses (prazo máximo 12 meses). <strong>Não há garantia de resultado</strong> — o sucesso depende do compromisso e da entrega de cada aluno.</p>
-<hr>
-<h2>14. HOW-IT-WORKS — &quot;Como funciona a candidatura&quot;</h2>
-<p><strong>[Tag]</strong>
-Processo</p>
-<p><strong>[H2]</strong>
-Como entras — passo a passo.</p>
-<p><strong>[Lead]</strong>
-Antes de entrares, queremos garantir que o formato faz sentido para ti — e que tu fazes sentido para a certificação. O processo é simples e directo.</p>
-<p><strong>[4 passos — timeline horizontal]</strong></p>
-<h3>Passo 1 · Preenches o formulário</h3>
-<p>Leva cerca de 5 minutos. Contas-nos quem és, onde estás hoje e onde queres chegar.</p>
-<h3>Passo 2 · O Ricardo analisa o teu perfil</h3>
-<p>Percebe se estás no momento certo e qual dos formatos — Turma ou Individual — te serve melhor.</p>
-<h3>Passo 3 · Conversa curta e directa</h3>
-<p>Agendamos uma chamada para tirares as tuas dúvidas e alinharmos expectativas. Sem pressão comercial. É uma conversa de verdade.</p>
-<h3>Passo 4 · Se for um sim mútuo, reservas o teu lugar</h3>
-<p>A inscrição conta como primeira mensalidade e entras oficialmente na próxima turma.</p>
-<p><strong>[Nota — microtexto]</strong>
-Isto não é venda sob pressão. Muitas vezes é o próprio candidato que percebe na chamada que ainda não é o momento — e isso também está bem.</p>
-<hr>
-<h2>15. FAQ — &quot;Perguntas Frequentes&quot;</h2>
-<p><strong>[Tag]</strong>
-Perguntas Frequentes</p>
-<p><strong>[H2]</strong>
-As perguntas que recebo antes de cada turma.</p>
-<p><strong>[7 itens em accordion]</strong></p>
-<h3>01 · O curso é online ou presencial?</h3>
-<p>As aulas ao vivo são online, via Zoom, às sextas-feiras às 9h. Todas ficam gravadas e disponíveis sem limite de tempo. No plano Individual existe a possibilidade de sessões presenciais combinadas directamente com o Ricardo.</p>
-<h3>02 · Ficam-me as gravações das aulas?</h3>
-<p>Sim. Cada aula fica gravada e fica contigo para sempre. Podes rever antes, durante e depois da certificação — quantas vezes precisares.</p>
-<h3>03 · Há garantia de resultado?</h3>
-<p>Não. Não há garantia e quem promete garantias nesta área, mente. O sucesso depende do compromisso e da entrega de cada aluno. O que nós garantimos é o conteúdo, a metodologia, o acompanhamento e o nível de exigência. O resto está nas tuas mãos.</p>
-<h3>04 · Qual é a diferença real entre o plano Turma e o Individual?</h3>
-<p>O currículo, os bónus, o exame final e o certificado são exactamente os mesmos. A diferença está no nível de atenção directa do Ricardo, no ritmo, no feedback personalizado e na possibilidade de sessões presenciais. Se queres o acompanhamento mais próximo possível, é o Individual. Se queres um excelente acompanhamento em grupo a um investimento mais leve, é a Turma.</p>
-<h3>05 · Já sou treinador há alguns anos — isto é para mim?</h3>
-<p>Sim. Uma parte significativa dos alunos chega já com prática no terreno e quer elevar a técnica, resolver casos difíceis e construir um modelo de negócio e posicionamento digital sérios. A certificação foi desenhada precisamente para também responder a esse perfil.</p>
-<h3>06 · Vou mesmo conseguir facturar entre €2.000 e €30.000 por mês?</h3>
-<p>Estes são os valores reportados por alunos reais. €2.000/mês é o que um treinador recém-formado consegue atingir em ritmo normal nos primeiros meses. Os €30.000+/mês são para quem aplica a fundo o lado de negócio e posicionamento e escala a sério. A certificação dá-te as ferramentas completas — o resultado depende da aplicação.</p>
-<h3>07 · Posso pagar só em prestações?</h3>
-<p>Sim. Tens duas opções em qualquer dos formatos: pagamento integral com desconto ou pagamento em 6 mensalidades sem desconto. A inscrição conta como primeira mensalidade.</p>
-<hr>
-<h2>16. FINAL CTA</h2>
-<p><strong>[H2 gigante]</strong>
-A tua próxima vida começa a 9 de Maio.</p>
-<p><strong>[Sub]</strong>
-A próxima turma é limitada e a candidatura prévia é obrigatória. Quando fecha, fecha — e a seguinte fica para daqui a alguns meses.</p>
-<p><strong>[CTA primário — botão grande]</strong>
-Candidatar-me Agora →</p>
-<p><strong>[Microtexto]</strong>
-Após a candidatura, o Ricardo entra em contacto pessoalmente para agendar a chamada de avaliação. Sem pressão, sem truques — só uma conversa directa.</p>
-<hr>
-<h2>17. FOOTER</h2>
-<p><strong>[Logo]</strong>
-Ricardo Calheiros Dog Trainer</p>
-<p><strong>[Links]</strong>
-Política de Privacidade · Termos · Contacto</p>
-<p>© 2026 Ricardo Calheiros · Todos os direitos reservados</p>
-<hr>
-<hr>
-<h2>⚠️ A VALIDAR COM O CLIENTE</h2>
-<p>Lista rigorosa de tudo o que precisa de confirmação, correcção ou inputs do Ricardo antes de publicar.</p>
-<h3>Datas e operacional</h3>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>Data de início da próxima turma</strong> — usámos <strong>9 de Maio de 2026</strong> como placeholder. Confirmar a data real.</li>
-<li><input disabled="" type="checkbox"> <strong>Horário das aulas</strong> — usámos sextas-feiras às 9h (vem da LP actual dele, não do forms). Confirmar.</li>
-<li><input disabled="" type="checkbox"> <strong>Frequência das aulas</strong> — semanal? (assumido). Confirmar.</li>
-<li><input disabled="" type="checkbox"> <strong>Plataforma da comunidade privada</strong> — a LP actual dele menciona MeWe; o forms não diz. Confirmar.</li>
-</ul>
-<h3>Preços e condições</h3>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>€370/mês × 6 = €2.220 · à vista €2.000</strong> (Turma) — vem do default da instrução, não do forms. Confirmar.</li>
-<li><input disabled="" type="checkbox"> <strong>€470/mês × 6 = €2.820 · à vista €2.400</strong> (Individual) — vem do default da instrução, não do forms. Confirmar.</li>
-<li><input disabled="" type="checkbox"> <strong>Desconto exacto à vista</strong> (€220 Turma · €420/15% Individual) — confirmar.</li>
-<li><input disabled="" type="checkbox"> <strong>Prazo máximo de 12 meses</strong> para completar — vem da LP actual, não do forms. Confirmar.</li>
-<li><input disabled="" type="checkbox"> <strong>A inscrição contar como primeira mensalidade</strong> — vem da LP actual, não do forms. Confirmar se é mesmo assim.</li>
-</ul>
-<h3>Claims e credenciais</h3>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>&quot;1 de apenas 4 treinadores Koehler reconhecidos na Europa / único em Portugal&quot;</strong> — fiel ao forms (Ricardo escreveu exactamente isso). Confirmar se ele quer manter esta formulação exacta.</li>
-<li><input disabled="" type="checkbox"> <strong>&quot;Certificado oficial de conclusão&quot;</strong> — NÃO foi usada nenhuma claim de reconhecimento por Ministério do Emprego ou Decreto-Lei (por instrução explícita). Se o Ricardo tiver documentação oficial que sustente um reconhecimento formal, pode ser introduzido.</li>
-<li><input disabled="" type="checkbox"> <strong>&quot;10 anos de experiência como treinador canino&quot;</strong> — mencionado no briefing (não directamente no forms). Confirmar.</li>
-</ul>
-<h3>Testemunhos (TODOS PLACEHOLDERS)</h3>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>4 depoimentos</strong> — o forms não fornece testemunhos. Todos os 4 cards estão como placeholders <code>[DEPOIMENTO — nome, contexto]</code>. O Ricardo precisa de fornecer:<ul>
-<li>Citações reais (ipsis verbis) de alunos</li>
-<li>Nomes reais (com autorização escrita de cada aluno)</li>
-<li>Contexto curto de cada um</li>
-<li>Idealmente, fotografia ou vídeo de cada aluno</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> <strong>Prova social em vídeo</strong> — a nota no fim da secção presume que existe nas redes. Confirmar qual rede e se há link directo a colocar.</li>
-</ul>
-<h3>Conteúdo do currículo (confirmação fina)</h3>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>Módulo 04 · Casos complexos</strong> — inclui &quot;agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos&quot; (fiel ao forms). Confirmar se há mais categorias.</li>
-<li><input disabled="" type="checkbox"> <strong>Módulo 05 · Koehler Method</strong> — confirmar a profundidade com que entra no currículo (é módulo principal ou fio condutor?).</li>
-<li><input disabled="" type="checkbox"> <strong>Módulo 08 · Posicionamento digital e conteúdo</strong> — confirmar se este módulo é ensinado ao longo do curso ou se o core vem só via bónus de Marketing.</li>
-</ul>
-<h3>Módulos adicionais vistos na LP actual mas NÃO no forms (PRECISAM DE DECISÃO)</h3>
-<p>A LP actual do Ricardo em <code>ricardocalheiros.com</code> menciona conteúdos que o forms NÃO lista. Decidir se entram ou não (se entrarem, criar módulos dedicados):</p>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>150 horas de prática intensiva</strong> — aparece na LP actual, não no forms. Confirmar se existe e se queremos destacar o número.</li>
-<li><input disabled="" type="checkbox"> <strong>Coleiras eléctricas</strong> — aparece na LP actual como módulo. Confirmar. (Nota: pode ser sensível — validar também se queremos comunicar publicamente.)</li>
-<li><input disabled="" type="checkbox"> <strong>Legislação e ética</strong> — aparece na LP actual. Confirmar se é módulo.</li>
-<li><input disabled="" type="checkbox"> <strong>Saúde canina</strong> — aparece na LP actual. Confirmar.</li>
-<li><input disabled="" type="checkbox"> <strong>Comunicação com clientes</strong> — aparece na LP actual. Confirmar.</li>
-<li><input disabled="" type="checkbox"> <strong>Cachorros (módulo específico)</strong> — aparece na LP actual. Confirmar.</li>
-</ul>
-<h3>Bónus</h3>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>Imersão em Agressividade + Imersão em Marketing e Negócio</strong> — ambos confirmados no forms.</li>
-<li><input disabled="" type="checkbox"> <strong>Formato dos bónus</strong> — o forms diz &quot;gravação de 1 dia&quot;. Confirmar duração exacta e se há materiais complementares.</li>
-<li><input disabled="" type="checkbox"> <strong>Bónus entrarem em ambos os formatos (Turma e Individual)</strong> — assumido por defeito. Confirmar.</li>
-</ul>
-<h3>Fotos, branding e visuais</h3>
-<ul>
-<li><input disabled="" type="checkbox"> Retrato profissional do Ricardo (para secção STORY)</li>
-<li><input disabled="" type="checkbox"> Fotos do Ricardo em trabalho de campo com cães</li>
-<li><input disabled="" type="checkbox"> Foto(s) de cão — olhar, posição de trabalho — para eventuais fullwidth</li>
-<li><input disabled="" type="checkbox"> Logo vectorial (SVG) para nav e footer</li>
-<li><input disabled="" type="checkbox"> Paleta de cores oficial e tipografia preferencial</li>
-</ul>
-<h3>Funil e integração</h3>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>URL do formulário de candidatura</strong> — onde apontam todos os CTAs desta LP?</li>
-<li><input disabled="" type="checkbox"> <strong>Email automático pós-candidatura</strong> — existe? Copy definida?</li>
-<li><input disabled="" type="checkbox"> <strong>Agendamento da chamada de avaliação</strong> — é pelo Ricardo manualmente? Via Calendly? Outro?</li>
-<li><input disabled="" type="checkbox"> <strong>Política de Privacidade e Termos</strong> — link ou texto a colocar no footer?</li>
-<li><input disabled="" type="checkbox"> <strong>Dados de contacto</strong> — email/WhatsApp oficial para a página de contacto?</li>
-</ul>
-<h3>Tom e formulações</h3>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>&quot;Tu/ti&quot; como pronome ao longo de toda a página</strong> — PT-PT informal mas respeitoso. Confirmar se o Ricardo concorda.</li>
-<li><input disabled="" type="checkbox"> <strong>Headlines propostos</strong> — ver <code>headlines-alternativas.md</code> para 5 variações do H1 do Hero, 3 do CTA final e 3 de urgência. Escolher ou pedir ajustes.</li>
-</ul>
-<h3>Notas gerais</h3>
-<ul>
-<li><input disabled="" type="checkbox"> Toda a copy assume que o visitante aterra a frio (tráfego de anúncios). Se houver versões para aquecido ou remarketing, copiar e ajustar a entrada.</li>
-<li><input disabled="" type="checkbox"> A palavra &quot;coaching&quot; é intencionalmente enquadrada como &quot;abordagem aplicada ao treino canino&quot; — nunca como formação em coaching humano. Confirmar que a leitura do Ricardo é esta.</li>
-</ul>
+<div class="impl-note">
+  <strong>Notas de implementação:</strong><br>
+  • <strong>"Coaching" esclarecido:</strong> abordagem APLICADA ao treino canino (sistema familiar do cão), NÃO formação em coaching humano/carreira.<br>
+  • <strong>Data de início:</strong> 9 de Maio de 2026 (placeholder — a confirmar com Ricardo).<br>
+  • <strong>Testemunhos:</strong> todos como placeholders. Ricardo precisa de fornecer citações + nomes + autorização.<br>
+  • <strong>Claims legais:</strong> sem menções a Ministério/Decreto-Lei (instrução explícita). Só "certificado oficial de conclusão".<br>
+  • <strong>Língua:</strong> PT-PT rigoroso — facturação, actividade, acção, directo, contacto, projecto.
+</div>
 
-</article>
+<section class="section">
+  <span class="section-label">01 · NAV (fixa)</span>
+  <h3 class="h3">Estrutura da barra superior</h3>
+  <p><strong>Logo:</strong> Ricardo Calheiros</p>
+  <p><strong>Links:</strong> Método · Currículo · Investimento · FAQ</p>
+  <p><strong>CTA botão:</strong> Candidatar-me</p>
+</section>
 
-<footer class="doc-foot">
-  Fonte: <code>v2-copy-final.md</code> · Gerado automaticamente pelo time Elton Miranda
-</footer>
+<section class="section">
+  <span class="section-label">02 · HERO</span>
+  <div class="pre-head">Próxima turma · 9 de Maio de 2026 · Candidaturas abertas</div>
+  <h1 class="h1">Torna-te treinador canino de elite — e constrói um negócio que factura entre €2.000 e €30.000 por mês.</h1>
+  <p class="sub">Certificação em Coaching e Treino Canino. Seis meses, online via Zoom, nos formatos Turma ou Individual. Ensinada pelo único treinador reconhecido em Portugal no Koehler Method of Dog Training — um dos apenas 4 na Europa.</p>
+  <ul class="bullets">
+    <li>1 de apenas 4 treinadores Koehler reconhecidos na Europa</li>
+    <li>€2.000 a €30.000+/mês · valores reportados por alunos reais</li>
+    <li>6 meses · online · Turma ou Individual</li>
+  </ul>
+  <a href="#pricing" class="cta">Candidatar-me à Próxima Turma →</a>
+  <p class="micro">Ver como funciona ↓</p>
+  <p class="micro">Candidatura prévia obrigatória · vagas limitadas</p>
+</section>
+
+<section class="section">
+  <span class="section-label">03 · URGENCY BAR (faixa fina)</span>
+  <div class="highlight-box">
+    Próxima turma começa a <strong>9 de Maio de 2026</strong> · vagas limitadas · candidatura prévia obrigatória
+  </div>
+</section>
+
+<section class="section">
+  <span class="section-label">04 · PARA QUEM É</span>
+  <h2 class="h2">Foi desenhada para dois perfis. Talvez sejas um deles.</h2>
+  <p class="sub">Esta certificação junta, numa só formação, os dois pontos de partida mais comuns — mas exigentes — do mercado português.</p>
+  <div class="two-col">
+    <div class="col profile-a">
+      <h4>Coluna A — Aspirante a treinador canino</h4>
+      <ul>
+        <li>Estás num trabalho que te esvazia e contas os cêntimos ao fim do mês</li>
+        <li>Adoras cães e queres transformar essa paixão numa carreira sólida</li>
+        <li>Queres acordar com propósito e controlar o teu próprio tempo</li>
+        <li>Queres construir reputação e independência financeira real</li>
+      </ul>
+    </div>
+    <div class="col profile-b">
+      <h4>Coluna B — Treinador canino em actividade</h4>
+      <ul>
+        <li>Já trabalhas com cães, mas a agenda é instável e a facturação não escala</li>
+        <li>Os casos difíceis — agressividade, ansiedade de separação — continuam a derrotar-te</li>
+        <li>Comparas-te com outros treinadores nas redes e sentes-te para trás</li>
+        <li>Queres posicionamento digital sólido e facturação mensal estável</li>
+      </ul>
+    </div>
+  </div>
+  <p><strong>Se te revês em qualquer um destes dois perfis, continua a ler. O resto desta página foi escrito para ti.</strong></p>
+</section>
+
+<section class="section">
+  <span class="section-label">05 · A REALIDADE DO MERCADO</span>
+  <h2 class="h2">O treino canino em Portugal está partido em dois. E no meio ficam as famílias.</h2>
+  <p>De um lado, os treinadores do espectáculo. Vídeos virais, cães impecáveis em câmara — e <strong>zero transformação real</strong> quando o telemóvel se desliga.</p>
+  <p>Do outro, a abordagem suave — tudo se resolve com petiscos e carinho. Mas o cão ansioso continua ansioso, o agressivo continua agressivo e a família continua em guerra dentro de casa.</p>
+  <p>No meio, milhares de famílias portuguesas vivem em conflito diário com os seus cães. E tu — treinador em actividade ou aspirante — ficas preso a abordagens superficiais que não resolvem nada a fundo. Sem resultados duradouros. Sem carreira sólida.</p>
+  <div class="quote-box">
+    "O problema raramente está no cão. Está na relação entre o cão e a família à volta. Enquanto ninguém tratar disso, o caos continua."
+    <span class="cite">Ricardo Calheiros</span>
+  </div>
+  <p><strong>Esta certificação nasce exactamente para preencher esse vazio.</strong></p>
+</section>
+
+<section class="section">
+  <span class="section-label">06 · A TRANSFORMAÇÃO</span>
+  <h2 class="h2">Seis meses. Três transformações reais.</h2>
+  <p class="sub">Não vendemos sonhos. Estas são as três transformações concretas que os alunos do Ricardo reportam quando terminam a certificação.</p>
+  <div class="pillars">
+    <div class="pillar">
+      <span class="num">01</span>
+      <h4>Independência e propósito</h4>
+      <p>Acordas a fazer o que amas. Escolhes os teus clientes. Defines o teu horário. Trabalhas com um sentido que o emprego antigo nunca te deu. Estás presente para a tua família — porque agora controlas o teu tempo.</p>
+    </div>
+    <div class="pillar">
+      <span class="num">02</span>
+      <h4>Técnica com resultados reais</h4>
+      <p>Aprendes a resolver os casos que outros treinadores dão por perdidos: agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos. Vais ver transformações que não pensavas serem possíveis.</p>
+    </div>
+    <div class="pillar">
+      <span class="num">03</span>
+      <h4>Projecção digital e facturação</h4>
+      <p>Sais com um modelo de negócio pronto a executar, um posicionamento digital definido e um plano claro para facturares entre €2.000 e €30.000+ por mês — consoante o teu ritmo, o teu compromisso e a tua capacidade de escalar.</p>
+    </div>
+  </div>
+  <p class="micro"><em>Estes valores são os reportados por alunos reais em actividade. Não há garantias — o resultado depende do compromisso, do trabalho e da capacidade de cada aluno para aplicar o que aprende.</em></p>
+</section>
+
+<section class="section">
+  <span class="section-label">07 · A HISTÓRIA</span>
+  <h2 class="h2">Não me tornei treinador porque era o meu sonho. Tornei-me porque precisei.</h2>
+  <p>Sou o Ricardo Calheiros. Natural do Porto, casado, pai de dois meninos.</p>
+  <p>Durante vários anos trabalhei como <strong>terapeuta de casal e Coach</strong>. O meu dia-a-dia era sentar-me em frente a sistemas humanos — casais, famílias, pessoas com dores emocionais profundas. Aprendi a ler dinâmicas, padrões e o que move as pessoas por dentro.</p>
+  <p>Depois veio um <strong>problema grave de saúde</strong> que mudou tudo. Tive de reinventar o meu trabalho praticamente do zero.</p>
+  <p>Encontrei no treino canino o novo caminho — mas trouxe comigo dez anos de experiência em terapia familiar e coaching humano. E foi aí que percebi exactamente o que faltava ao treino canino tal como é feito na maior parte do mercado.</p>
+  <div class="quote-box">
+    "Percebi que não estava a treinar só o cão. Estava a tratar o sistema inteiro à volta dele. E é aí que mora quase toda a solução dos casos difíceis."
+  </div>
+  <p>Hoje sou treinador canino há dez anos. Uso o Koehler Method of Dog Training como método de preferência — e sou um dos apenas <strong>4 treinadores reconhecidos neste método em toda a Europa</strong>.</p>
+  <div class="badge-strip">Koehler Method of Dog Training · 1 dos 4 treinadores reconhecidos na Europa</div>
+</section>
+
+<section class="section">
+  <span class="section-label">08 · O MÉTODO</span>
+  <h2 class="h2">Porque os problemas do cão raramente são só do cão.</h2>
+  <p class="sub">Treinar o cão isoladamente não resolve. O cão vive inserido num sistema familiar — e esse sistema é metade do problema e praticamente toda a solução. Esta certificação ensina-te a trabalhar as três dimensões ao mesmo tempo.</p>
+  <div class="pillars">
+    <div class="pillar">
+      <span class="num">01 · Ciência do comportamento canino</span>
+      <h4>Base técnica rigorosa</h4>
+      <p>Fundamentos sólidos de como o cão aprende, do que responde e como comunica. Inclui o Koehler Method of Dog Training ensinado pelo único formador reconhecido em Portugal.</p>
+    </div>
+    <div class="pillar">
+      <span class="num">02 · Psicologia humana aplicada</span>
+      <h4>A causa raiz dos casos difíceis</h4>
+      <p>Como os padrões emocionais dos donos criam, perpetuam ou agravam os problemas do cão. Como ler esses padrões e intervires sem ferir a relação.</p>
+    </div>
+    <div class="pillar">
+      <span class="num">03 · Dinâmica do sistema familiar</span>
+      <h4>A peça que quase ninguém ensina</h4>
+      <p>Reorganizar a rotina, os limites e os papéis dentro de casa para que o trabalho com o cão segure na vida real — e não só durante a sessão.</p>
+    </div>
+  </div>
+  <div class="highlight-box">
+    A vertente de <strong>"coaching"</strong> desta certificação refere-se a esta abordagem aplicada — ferramentas de coaching usadas por ti, futuro treinador, para intervires no sistema familiar do cão. <strong>Não é uma formação em coaching humano nem em desenvolvimento de carreira.</strong> Sais daqui como treinador canino de elite — com ferramentas que a maioria dos outros treinadores nunca toca.
+  </div>
+</section>
+
+<section class="section">
+  <span class="section-label">09 · CURRÍCULO</span>
+  <h2 class="h2">O que vais dominar ao longo dos 6 meses.</h2>
+  <p class="sub">O currículo foi desenhado para cobrir tudo aquilo que um treinador canino de elite precisa de dominar — da técnica mais rigorosa ao modelo de negócio que sustenta a carreira.</p>
+  <ol class="modules-list">
+    <li><strong>Comportamento canino a fundo</strong><span>Leitura, comunicação e aprendizagem do cão. Base científica sólida para que cada decisão técnica tenha um porquê claro.</span></li>
+    <li><strong>Padrões emocionais dos donos</strong><span>Identificação e intervenção na peça humana do problema. Como a ansiedade ou o medo do dono molda o cão — e como lidar com isso.</span></li>
+    <li><strong>Estruturas de treino equilibradas</strong><span>Protocolos que funcionam fora da sessão, no quotidiano real da família. Obediência sólida que se mantém quando ninguém está a ver.</span></li>
+    <li><strong>Casos complexos</strong><span>Agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos. Os casos onde a maioria desiste.</span></li>
+    <li><strong>Koehler Method of Dog Training</strong><span>O método de preferência do Ricardo, ensinado pelo único formador reconhecido em Portugal e um dos apenas 4 na Europa.</span></li>
+    <li><strong>Coaching aplicado ao sistema familiar</strong><span>Ferramentas de intervenção no ambiente humano do cão. Como fazer a família toda caminhar na mesma direcção.</span></li>
+    <li><strong>Modelo de negócio para treinador canino</strong><span>Preços, serviços, funil de clientes, margens. Tudo para transformares a tua prática numa operação rentável e estável.</span></li>
+    <li><strong>Posicionamento digital e conteúdo</strong><span>Como construíres uma presença online que te traz clientes e te permite facturar €2.000 a €30.000+/mês.</span></li>
+  </ol>
+</section>
+
+<section class="section">
+  <span class="section-label">10 · O QUE ESTÁ INCLUÍDO</span>
+  <h2 class="h2">Tudo o que precisas para saíres daqui como profissional de elite.</h2>
+  <div class="cards-grid">
+    <div class="card"><h4>Aulas ao vivo · Zoom</h4><p>Sessões semanais com o Ricardo às sextas-feiras, às 9h. Em tempo real e com interacção directa.</p></div>
+    <div class="card"><h4>Gravações sem limite</h4><p>Revês cada aula quando quiseres. Ficam contigo antes, durante e depois da certificação.</p></div>
+    <div class="card"><h4>Acompanhamento semanal</h4><p>Comunidade privada com feedback contínuo, partilha de casos e correcção permanente entre aulas.</p></div>
+    <div class="card"><h4>Análise do teu trabalho</h4><p>Envias vídeos do teu trabalho com o cão, o Ricardo vê, comenta e corrige. Aprendes com erros reais — os teus.</p></div>
+    <div class="card"><h4>Exame prático final</h4><p>Avaliação com cão em contexto real — controlo com e sem trela. Não passas porque pagaste. Passas porque sabes.</p></div>
+    <div class="card"><h4>Certificado oficial</h4><p>A tua credencial formal da Certificação em Coaching e Treino Canino. A prova visível de quem és e de onde vens.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <span class="section-label">11 · BÓNUS</span>
+  <h2 class="h2">Dois dias de imersão — gravados e teus para sempre.</h2>
+  <p class="sub">Além do currículo principal, qualquer aluno — Turma ou Individual — recebe dois dias completos de imersão já gravados e disponíveis desde o primeiro dia da certificação.</p>
+  <div class="two-col">
+    <div class="col profile-a">
+      <h4>Bónus 1 · Imersão em Agressividade</h4>
+      <p style="font-size:14px;margin:0">Um dia completo dedicado a um dos temas mais difíceis e mais procurados do mercado. Agressividade a pessoas, a outros cães, por recurso, por medo. O Ricardo é especialista nesta área e é por aqui que muitos alunos começam a diferenciar-se no mercado.</p>
+    </div>
+    <div class="col profile-b">
+      <h4>Bónus 2 · Imersão em Marketing e Negócio</h4>
+      <p style="font-size:14px;margin:0">Um dia completo sobre como montar o teu negócio, posicionar-te no digital, cobrar o que vales e construir uma agenda estável. O atalho directo para transformares o que aprendes em facturação real.</p>
+    </div>
+  </div>
+  <p class="micro"><em>Ambos os bónus são entregues logo no início da certificação. Não estão dependentes de progressão nem de upgrade.</em></p>
+</section>
+
+<section class="section">
+  <span class="section-label">12 · ALUNOS</span>
+  <h2 class="h2">O que dizem quem já passou por aqui.</h2>
+  <p class="sub">Placeholders — Ricardo precisa de fornecer citações reais, nomes e autorização de uso.</p>
+  <div class="test-grid">
+    <div class="test-card">
+      <div class="stars">★★★★★</div>
+      <p class="quote-text">"<code>[DEPOIMENTO 1 — citação directa do aluno, 2–4 linhas, resultado concreto]</code>"</p>
+      <div class="author"><code>[Nome do aluno]</code> — <code>[contexto: aspirante que mudou de carreira / treinador que escalou / etc.]</code></div>
+    </div>
+    <div class="test-card">
+      <div class="stars">★★★★★</div>
+      <p class="quote-text">"<code>[DEPOIMENTO 2 — citação directa, 2–4 linhas, resultado concreto]</code>"</p>
+      <div class="author"><code>[Nome]</code> — <code>[contexto]</code></div>
+    </div>
+    <div class="test-card">
+      <div class="stars">★★★★★</div>
+      <p class="quote-text">"<code>[DEPOIMENTO 3 — citação directa, 2–4 linhas, resultado concreto]</code>"</p>
+      <div class="author"><code>[Nome]</code> — <code>[contexto]</code></div>
+    </div>
+    <div class="test-card">
+      <div class="stars">★★★★★</div>
+      <p class="quote-text">"<code>[DEPOIMENTO 4 — citação directa, 2–4 linhas, resultado concreto]</code>"</p>
+      <div class="author"><code>[Nome]</code> — <code>[contexto]</code></div>
+    </div>
+  </div>
+  <p class="micro"><em>A prova social em vídeo está disponível nas redes sociais do Ricardo.</em></p>
+</section>
+
+<section class="section" id="pricing">
+  <span class="section-label">13 · INVESTIMENTO</span>
+  <h2 class="h2">Dois formatos. Um compromisso.</h2>
+  <p class="sub">Os dois formatos incluem exactamente o mesmo currículo, os mesmos bónus, o mesmo exame final e o mesmo certificado oficial. A diferença está no nível de atenção directa do Ricardo e no ritmo em que avanças.</p>
+  <div class="highlight-box">
+    O preço é alto por design. É um filtro. O que investes aqui é, em média, o que um dos nossos alunos factura no primeiro ou no segundo mês depois de terminar a certificação — desde que aplique a fundo o que aprendeu.
+  </div>
+  <div class="pricing-grid">
+    <div class="price-card">
+      <div class="plan-name">Plano 1</div>
+      <div class="plan-type">Turma</div>
+      <div class="price">€370<span style="font-size:18px">/mês</span></div>
+      <div class="price-freq">6 meses · acompanhamento em grupo</div>
+      <div class="price-total">Total: <strong>€2.220</strong></div>
+      <div class="price-save">À vista: €2.000 (poupas €220)</div>
+      <ul>
+        <li>Aulas ao vivo semanais (Zoom, sextas às 9h)</li>
+        <li>Gravações sem limite de tempo</li>
+        <li>Comunidade privada com acompanhamento contínuo</li>
+        <li>Análise de vídeos do teu trabalho em campo</li>
+        <li>Exame prático final + certificado oficial</li>
+        <li>Bónus: Imersão em Agressividade + Marketing</li>
+      </ul>
+      <a href="#" class="cta">Candidatar-me ao Grupo →</a>
+    </div>
+    <div class="price-card featured">
+      <div class="badge-top">★ Mais Completo</div>
+      <div class="plan-name">Plano 2</div>
+      <div class="plan-type">Individual</div>
+      <div class="price">€470<span style="font-size:18px">/mês</span></div>
+      <div class="price-freq">6 meses · acompanhamento individual</div>
+      <div class="price-total">Total: <strong>€2.820</strong></div>
+      <div class="price-save">À vista: €2.400 (poupas €420 · 15% desconto)</div>
+      <ul>
+        <li><strong>Tudo o que está no plano Turma</strong></li>
+        <li><strong>Acompanhamento individual</strong> — ritmo e foco adaptados</li>
+        <li><strong>Feedback directo e personalizado</strong> fora dos horários de grupo</li>
+        <li><strong>Possibilidade de sessões presenciais</strong></li>
+        <li>Acesso prioritário e atenção dedicada</li>
+      </ul>
+      <a href="#" class="cta">Candidatar-me ao Individual →</a>
+    </div>
+  </div>
+  <p class="micro"><em>A inscrição conta como primeira mensalidade. Duração: 6 meses (prazo máximo 12 meses). <strong>Não há garantia de resultado</strong> — o sucesso depende do compromisso e da entrega de cada aluno.</em></p>
+</section>
+
+<section class="section">
+  <span class="section-label">14 · PROCESSO</span>
+  <h2 class="h2">Como entras — passo a passo.</h2>
+  <p class="sub">Antes de entrares, queremos garantir que o formato faz sentido para ti — e que tu fazes sentido para a certificação. O processo é simples e directo.</p>
+  <ol class="step-list">
+    <li><strong>Preenches o formulário</strong><span>Leva cerca de 5 minutos. Contas-nos quem és, onde estás hoje e onde queres chegar.</span></li>
+    <li><strong>O Ricardo analisa o teu perfil</strong><span>Percebe se estás no momento certo e qual dos formatos — Turma ou Individual — te serve melhor.</span></li>
+    <li><strong>Conversa curta e directa</strong><span>Agendamos uma chamada para tirares dúvidas e alinharmos expectativas. Sem pressão comercial.</span></li>
+    <li><strong>Se for um sim mútuo, reservas o lugar</strong><span>A inscrição conta como primeira mensalidade e entras oficialmente na próxima turma.</span></li>
+  </ol>
+  <p class="micro"><em>Isto não é venda sob pressão. Muitas vezes é o próprio candidato que percebe na chamada que ainda não é o momento — e isso também está bem.</em></p>
+</section>
+
+<section class="section">
+  <span class="section-label">15 · PERGUNTAS FREQUENTES</span>
+  <h2 class="h2">As perguntas que recebo antes de cada turma.</h2>
+  <div class="faq-item">
+    <div class="q">O curso é online ou presencial?</div>
+    <div class="a">As aulas ao vivo são online, via Zoom, às sextas-feiras às 9h. Todas ficam gravadas e disponíveis sem limite de tempo. No plano Individual existe a possibilidade de sessões presenciais combinadas directamente com o Ricardo.</div>
+  </div>
+  <div class="faq-item">
+    <div class="q">Ficam-me as gravações das aulas?</div>
+    <div class="a">Sim. Cada aula fica gravada e fica contigo para sempre. Podes rever antes, durante e depois da certificação — quantas vezes precisares.</div>
+  </div>
+  <div class="faq-item">
+    <div class="q">Há garantia de resultado?</div>
+    <div class="a">Não. Não há garantia e quem promete garantias nesta área, mente. O sucesso depende do compromisso e da entrega de cada aluno. O que nós garantimos é o conteúdo, a metodologia, o acompanhamento e o nível de exigência. O resto está nas tuas mãos.</div>
+  </div>
+  <div class="faq-item">
+    <div class="q">Qual é a diferença real entre o plano Turma e o Individual?</div>
+    <div class="a">O currículo, os bónus, o exame final e o certificado são exactamente os mesmos. A diferença está no nível de atenção directa do Ricardo, no ritmo, no feedback personalizado e na possibilidade de sessões presenciais. Se queres o acompanhamento mais próximo possível, é o Individual. Se queres um excelente acompanhamento em grupo a um investimento mais leve, é a Turma.</div>
+  </div>
+  <div class="faq-item">
+    <div class="q">Já sou treinador há alguns anos — isto é para mim?</div>
+    <div class="a">Sim. Uma parte significativa dos alunos chega já com prática no terreno e quer elevar a técnica, resolver casos difíceis e construir um modelo de negócio e posicionamento digital sérios. A certificação foi desenhada precisamente para também responder a esse perfil.</div>
+  </div>
+  <div class="faq-item">
+    <div class="q">Vou mesmo conseguir facturar entre €2.000 e €30.000 por mês?</div>
+    <div class="a">Estes são os valores reportados por alunos reais. €2.000/mês é o que um treinador recém-formado consegue atingir em ritmo normal nos primeiros meses. Os €30.000+/mês são para quem aplica a fundo o lado de negócio e posicionamento e escala a sério. A certificação dá-te as ferramentas completas — o resultado depende da aplicação.</div>
+  </div>
+  <div class="faq-item">
+    <div class="q">Posso pagar só em prestações?</div>
+    <div class="a">Sim. Tens duas opções em qualquer dos formatos: pagamento integral com desconto ou pagamento em 6 mensalidades sem desconto. A inscrição conta como primeira mensalidade.</div>
+  </div>
+</section>
+
+<section class="section">
+  <span class="section-label">16 · ACÇÃO FINAL</span>
+  <h1 class="h1">A tua próxima vida começa a 9 de Maio.</h1>
+  <p class="sub">A próxima turma é limitada e a candidatura prévia é obrigatória. Quando fecha, fecha — e a seguinte fica para daqui a alguns meses.</p>
+  <a href="#pricing" class="cta">Candidatar-me Agora →</a>
+  <p class="micro">Após a candidatura, o Ricardo entra em contacto pessoalmente para agendar a chamada de avaliação. Sem pressão, sem truques — só uma conversa directa.</p>
+</section>
+
+<section class="section">
+  <span class="section-label">17 · FOOTER</span>
+  <p><strong>Logo:</strong> Ricardo Calheiros Dog Trainer</p>
+  <p><strong>Links:</strong> Política de Privacidade · Termos · Contacto</p>
+  <p class="micro">© 2026 Ricardo Calheiros · Todos os direitos reservados</p>
+</section>
+
+<div class="validation-section">
+  <h2>⚠️ A VALIDAR COM O CLIENTE</h2>
+  <p class="sub">Lista rigorosa de tudo o que precisa de confirmação, correcção ou inputs do Ricardo antes de publicar.</p>
+
+  <h3>Datas e operacional</h3>
+  <ul>
+    <li><strong>Data de início da próxima turma</strong> — usámos 9 de Maio de 2026 como placeholder. Confirmar a data real.</li>
+    <li><strong>Horário das aulas</strong> — usámos sextas-feiras às 9h (vem da LP actual, não do forms). Confirmar.</li>
+    <li><strong>Frequência das aulas</strong> — semanal (assumido). Confirmar.</li>
+    <li><strong>Plataforma da comunidade privada</strong> — LP actual menciona MeWe; forms não diz. Confirmar.</li>
+  </ul>
+
+  <h3>Preços e condições</h3>
+  <ul>
+    <li><strong>€370/mês × 6 = €2.220 · à vista €2.000</strong> (Turma) — vem do default, não do forms. Confirmar.</li>
+    <li><strong>€470/mês × 6 = €2.820 · à vista €2.400</strong> (Individual) — vem do default, não do forms. Confirmar.</li>
+    <li><strong>Desconto exacto à vista</strong> (€220 Turma · €420/15% Individual) — confirmar.</li>
+    <li><strong>Prazo máximo de 12 meses</strong> — vem da LP actual. Confirmar.</li>
+    <li><strong>A inscrição contar como primeira mensalidade</strong> — vem da LP actual. Confirmar.</li>
+  </ul>
+
+  <h3>Claims e credenciais</h3>
+  <ul>
+    <li><strong>"1 de apenas 4 treinadores Koehler reconhecidos na Europa / único em Portugal"</strong> — fiel ao forms. Confirmar formulação.</li>
+    <li><strong>"Certificado oficial de conclusão"</strong> — sem claims de Ministério ou Decreto-Lei (instrução explícita). Se houver documentação, pode entrar.</li>
+    <li><strong>"10 anos de experiência"</strong> — mencionado no briefing. Confirmar.</li>
+  </ul>
+
+  <h3>Testemunhos (TODOS PLACEHOLDERS)</h3>
+  <ul>
+    <li><strong>4 depoimentos</strong> — forms não fornece. Ricardo precisa de: citações reais, nomes com autorização escrita, contexto curto, fotografia/vídeo ideal.</li>
+    <li><strong>Prova social em vídeo</strong> — confirmar rede social e link directo.</li>
+  </ul>
+
+  <h3>Conteúdo do currículo</h3>
+  <ul>
+    <li><strong>Módulo Casos complexos</strong> — inclui agressividade, ansiedade de separação, medo, obsessivo-compulsivos (fiel ao forms). Confirmar.</li>
+    <li><strong>Módulo Koehler Method</strong> — confirmar profundidade (módulo principal ou fio condutor?).</li>
+    <li><strong>Módulo Posicionamento digital</strong> — é ensinado ao longo ou só via bónus de Marketing?</li>
+  </ul>
+
+  <h3>Módulos adicionais vistos na LP actual mas NÃO no forms</h3>
+  <ul>
+    <li><strong>150 horas de prática intensiva</strong> — confirmar se existe e se queremos destacar.</li>
+    <li><strong>Coleiras eléctricas</strong> — confirmar (pode ser sensível para Meta Ads).</li>
+    <li><strong>Legislação e ética</strong> — confirmar.</li>
+    <li><strong>Saúde canina</strong> — confirmar.</li>
+    <li><strong>Comunicação com clientes</strong> — confirmar.</li>
+    <li><strong>Cachorros (módulo específico)</strong> — confirmar.</li>
+  </ul>
+
+  <h3>Bónus</h3>
+  <ul>
+    <li><strong>Imersão em Agressividade + Marketing</strong> — ambos confirmados no forms.</li>
+    <li><strong>Formato dos bónus</strong> — forms diz "gravação de 1 dia". Confirmar duração e materiais.</li>
+    <li><strong>Bónus em ambos os formatos (Turma e Individual)</strong> — assumido. Confirmar.</li>
+  </ul>
+
+  <h3>Fotos, branding e visuais</h3>
+  <ul>
+    <li>Retrato profissional do Ricardo (para STORY)</li>
+    <li>Fotos do Ricardo em trabalho de campo com cães</li>
+    <li>Foto(s) de cão para eventuais fullwidth</li>
+    <li>Logo vectorial (SVG) para nav e footer</li>
+    <li>Paleta e tipografia oficial</li>
+  </ul>
+
+  <h3>Funil e integração</h3>
+  <ul>
+    <li><strong>URL do formulário de candidatura</strong> — onde apontam todos os CTAs?</li>
+    <li><strong>Email automático pós-candidatura</strong> — existe? Copy definida?</li>
+    <li><strong>Agendamento da chamada</strong> — manualmente? Calendly?</li>
+    <li><strong>Política de Privacidade e Termos</strong> — link ou texto para o footer.</li>
+    <li><strong>Dados de contacto</strong> — email/WhatsApp oficial.</li>
+  </ul>
+
+  <h3>Tom e formulações</h3>
+  <ul>
+    <li><strong>"Tu/ti" como pronome</strong> — PT-PT informal mas respeitoso. Confirmar.</li>
+    <li><strong>Headlines alternativos</strong> — ver headlines-alternativas.md para variações do H1, CTA final e urgência.</li>
+  </ul>
+
+  <h3>Notas gerais</h3>
+  <ul>
+    <li>A copy assume tráfego <strong>a frio</strong> (anúncios). Se houver versões aquecidas/remarketing, ajustar a entrada.</li>
+    <li>A palavra <strong>"coaching"</strong> é enquadrada como abordagem aplicada ao treino canino — nunca como formação humana. Confirmar leitura.</li>
+  </ul>
+</div>
 
 </div>
+
+<footer>
+  <strong>Ricardo Calheiros Dog Trainer</strong><br><br>
+  Copy v2 · Base: forms · PT-PT<br>
+  Preview gerado — <a href="index.html">ver LP de referência visual →</a><br><br>
+  © 2026
+</footer>
 
 </body>
 </html>
