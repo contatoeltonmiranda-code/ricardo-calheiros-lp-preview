@@ -1,506 +1,502 @@
-# v2 — Copy Final (pronta para maquetar)
+# v2 — Copy Final (refeita do zero · base: forms)
 
-> Copy completa da LP do Ricardo Calheiros — Certificação em Coaching e Treino Canino.
-> Língua: **Português de Portugal (PT-PT)**. Mercado: Portugal.
-> Base: `referencia-ricardo-equilibrio.md` (aprovada pelo cliente) refinada com `briefing-extraido.md` e `avatar-e-angulos.md`.
-> Data de início (placeholder — a validar): **9 de Maio de 2026**.
+> Copy da LP do Ricardo Calheiros — Certificação em Coaching e Treino Canino.
+> Língua: Português de Portugal (PT-PT). Mercado: Portugal.
+> Base: questionário Google Forms preenchido pelo Ricardo (ficheiro PDF no Briefing/).
+> Esta versão substitui a anterior — não usa ricardo-equilibrio.html como referência.
+> Clarificação: "Coaching" aqui refere-se à abordagem de coaching APLICADA ao treino canino (sistema familiar do cão), NÃO a coaching humano/carreira.
+> Data de início (placeholder): 9 de Maio de 2026.
 
 ---
 
 ## 1. NAV (fixa)
 
-**[Logo — texto]** Ricardo *Calheiros*
-*(palavra "Calheiros" em dourado itálico)*
+**[Logo — texto]**
+Ricardo Calheiros
 
-**[Botão dourado — CTA]** Garantir o Meu Lugar
+**[Links]**
+Método · Currículo · Investimento · FAQ
+
+**[CTA — botão]**
+Candidatar-me
 
 ---
 
 ## 2. HERO
 
 **[Pill · pretítulo]**
-Início · 9 de Maio de 2026 · Vagas Limitadas
+Próxima turma · 9 de Maio de 2026 · Candidaturas abertas
 
-**[H1 — Playfair Display, cream, com "a facturar" em itálico dourado]**
-Acorda todos os dias feliz a treinar cães — *e a facturar entre €2.000 e €30.000 por mês.*
+**[H1]**
+Torna-te treinador canino de elite — e constrói um negócio que factura entre €2.000 e €30.000 por mês.
 
-**[Subtítulo · parágrafo lead]**
-A única Certificação em Coaching e Treino Canino em Portugal que te dá método, modelo de negócio e posicionamento digital — pela mão do **único treinador reconhecido no Koehler Method em Portugal**, um dos 4 na Europa.
+**[Lead — parágrafo]**
+Certificação em Coaching e Treino Canino. Seis meses, online via Zoom, nos formatos Turma ou Individual. Ensinada pelo único treinador reconhecido em Portugal no Koehler Method of Dog Training — um dos apenas 4 na Europa.
 
-**[Números — 3 cards lado a lado]**
+**[3 micro-badges · linha horizontal]**
 
-| €2k | €30k+ | 6 meses |
-|---|---|---|
-| Facturação base mensal | Sem tecto | Para lá chegares |
+- 1 de apenas 4 treinadores Koehler reconhecidos na Europa
+- €2.000 a €30.000+/mês · valores reportados por alunos reais
+- 6 meses · online · Turma ou Individual
 
-**[CTA primário — botão dourado grande]**
-Preencher a Minha Candidatura →
+**[CTA primário — botão grande]**
+Candidatar-me à Próxima Turma →
 
-**[CTA secundário — link com seta para baixo]**
-Conhecer o Ricardo ↓
+**[CTA secundário — link com seta]**
+Ver como funciona ↓
 
 **[Microtexto — cinzento claro, abaixo dos CTAs]**
-Candidatura prévia obrigatória · As vagas esgotam rápido
+Candidatura prévia obrigatória · vagas limitadas
 
 ---
 
-## 3. URGENCY BAR (faixa terra)
+## 3. URGENCY BAR (faixa fina)
 
 **[Texto centrado]**
-Próxima turma: **9 de Maio de 2026** · Vagas limitadas por design · **Candidata-te antes de fechar**
+Próxima turma começa a **9 de Maio de 2026** · vagas limitadas · candidatura prévia obrigatória
 
 ---
 
-## 4. VISION — "A Transformação" *(secção terra)*
-
-**[Tag — pequena, dourada]**
-A Transformação
-
-**[H2 — Playfair, grande, "uma vida" em itálico dourado]**
-Não estamos a vender um curso. *Estamos a vender uma vida.*
-
-**[Parágrafo 1]**
-Um treinador canino certificado trabalha de forma completamente independente. Escolhe os clientes. Define os preços. Controla o próprio horário.
-
-**[Parágrafo 2 — com negrito]**
-Os **€2.000 a €30.000+ mensais não são promessa — são o que os nossos alunos reportam.** Depende do compromisso, do trabalho e da capacidade de escalar.
-
-**[Parágrafo 3]**
-Esta certificação dá-te as ferramentas. Tu decides até onde vais.
-
-**[4 Vcards — grid 2x2, ícones em dourado]**
-
-**Card 1**
-**Trabalha onde e quando quiseres**
-Online, presencial, em casa dos clientes. O teu negócio, as tuas regras. O teu tempo.
-
-**Card 2**
-**Facturação sem tecto**
-De €2.000/mês como base até €30.000+ para quem escala. Valores reportados por alunos reais — não promessas.
-
-**Card 3**
-**Certificação oficial**
-Certificado oficial de conclusão. Uma credencial séria que te distingue no mercado.
-
-**Card 4**
-**Impacto real todos os dias**
-Transformas famílias inteiras, não só cães. E és pago para isso. É trabalho com propósito.
-
----
-
-## 5. FAMILY PHOTO (fullwidth com overlay)
-
-**[Caption sobre a foto — Playfair itálico, grande]**
-A vida que trabalho para ter é a vida que te ensino a *construir.*
-
----
-
-## 6. PROBLEM — "A Realidade do Mercado" *(secção preta)*
-
-**[Tag]**
-A Realidade do Mercado
-
-**[H2 — "partido em dois" em itálico dourado]**
-O treino canino em Portugal está *partido em dois.*
-
-**[Coluna 1 — parágrafos curtos]**
-
-De um lado, os treinadores do espectáculo. **Vídeos virais, cães obedientes em câmara** — e zero transformação real. Quinze minutos depois, o caos regressa à casa.
-
-Do outro, quem acredita que tudo se resolve com petiscos e carinho. No meio, **milhares de famílias vivem em conflito com os seus cães todos os dias.**
-
-E tu, treinador — ou aspirante — ficas preso a abordagens superficiais que não resolvem nada a fundo. Sem resultados duradouros. Sem carreira sólida. Sem clientes que te recomendem de cabeça levantada.
-
-**[Coluna 2 — quote em destaque]**
-> "O problema raramente está no cão. Está na relação entre o cão e o humano. Enquanto ninguém tratar disso, o caos continua."
->
-> — Ricardo Calheiros
-
-**[Parágrafo de fecho — centrado, abaixo das colunas]**
-Esta certificação nasce exactamente para preencher este vazio — dando aos treinadores **um modelo completo que funciona na vida real.**
-
----
-
-## 7. METHOD SPLIT — "O Método" *(secção terra com imagem lateral)*
-
-**[Tag]**
-O Método
-
-**[H2 — "fora da sessão" em itálico dourado]**
-Treino que funciona *fora da sessão.*
-
-**[Parágrafo 1]**
-A maioria dos treinadores consegue que o cão obedeça durante a sessão. O desafio real é garantir que esse comportamento se mantém **na vida real — em casa, na rua, com a família toda, quando já ninguém está a ver.**
-
-**[Parágrafo 2]**
-É aqui que o nosso método se diferencia. Trabalhamos não só o cão, mas **o sistema familiar inteiro.** Coaching aplicado. Terapia familiar aplicada ao treino. Micro-detalhes do quotidiano que escapam ao treinador comum.
-
-**[Parágrafo 3 — negrito parcial]**
-É por isso que os nossos alunos resolvem casos que outros treinadores dão por perdidos.
-
-**[CTA — botão secundário terra]**
-Quero Aprender Isto →
-
----
-
-## 8. STORY — "A História do Ricardo" *(secção preta, foto sticky lateral)*
-
-**[Tag]**
-A História
-
-**[H2 — "precisei" em itálico dourado]**
-Não me tornei treinador porque era o meu sonho. *Tornei-me porque precisei.*
-
-**[Parágrafo 1]**
-Sou o Ricardo. Casado, pai de dois meninos, natural do Porto. Durante anos fui terapeuta de casal e Coach — trabalhava com pessoas, com famílias, com sistemas emocionais.
-
-**[Parágrafo 2]**
-Depois vieram **problemas graves de saúde**. E o treino canino foi a única forma que encontrei de continuar a trabalhar. Não por escolha. Por necessidade real.
-
-**[Parágrafo 3]**
-E foi essa necessidade que me obrigou a ver o treino de forma completamente diferente — **não como técnica isolada, mas como algo que tem de funcionar na vida real das famílias.**
-
-**[Quote em destaque]**
-> "Aprendi que o cão não é o problema. O sistema familiar inteiro é o que precisa de mudar."
-
-**[Parágrafo 4]**
-Hoje sou o **único treinador formado e reconhecido em Portugal no Koehler Method of Dog Training** — um dos apenas 4 reconhecidos em toda a Europa. E é esta bagagem — terapia, coaching, método Koehler, 10 anos de terreno — que ensino na Certificação.
-
-**[Badge dourada]**
-Único treinador Koehler Method reconhecido em Portugal · 1 dos 4 na Europa
-
----
-
-## 9. DOG FACE (fullwidth com overlay)
-
-**[Caption sobre foto de cão — Playfair itálico]**
-O cão olha-te nos olhos e espera que *alguém perceba.*
-
----
-
-## 10. CERTIFICATION — "A Certificação" *(secção terra)*
-
-**[Tag]**
-A Certificação
-
-**[H2 — "Um modelo completo" em itálico dourado]**
-Mais do que técnica. *Um modelo completo de transformação.*
-
-**[Lead]**
-A única formação em Portugal que une as três dimensões que realmente explicam o comportamento canino. Não é mais um curso técnico. É uma mudança de perspectiva.
-
-**[3 Pilares — ícones dourados]**
-
-**Pilar 1**
-**Ciência do Comportamento**
-Fundamentos profundos do comportamento canino, aprendizagem e modificação com base científica sólida. A técnica importa — mas só funciona se estiver ancorada em ciência real.
-
-**Pilar 2**
-**Psicologia Humana**
-Como os padrões emocionais dos donos criam e perpetuam os comportamentos do cão — e como intervir sem ferir. É aqui que está a causa raiz de 80% dos casos.
-
-**Pilar 3**
-**Dinâmica Familiar**
-Intervenção no sistema completo. O cão é o espelho da família — é aí que mora a solução real. Este é o pilar que mais nenhum curso em Portugal ensina.
-
----
-
-## 11. WHO — "Para Quem É / Não É" *(secção preta)*
+## 4. FOR WHO — "Foi feita para dois perfis"
 
 **[Tag]**
 Para Quem É
 
-**[H2 — "ou não" em itálico dourado]**
-Esta certificação foi feita para ti — *ou não.*
+**[H2]**
+Foi desenhada para dois perfis. Talvez sejas um deles.
 
 **[Lead]**
-Este não é um curso para todos. É por design. Se te encaixas, vais sair daqui como profissional de elite. Se não, melhor ficares fora.
+Esta certificação junta, numa só formação, os dois pontos de partida mais comuns — mas exigentes — do mercado português.
 
-**[Coluna 1 — checklist verde/dourado]**
+**[2 colunas lado a lado]**
 
-**✓ É para ti se…**
+### Coluna A — Aspirante a treinador canino
 
-- Estás cansado do teu trabalho actual e queres transformar a paixão por cães numa carreira rentável
-- Já és treinador e sentes-te num plateau — queres escalar para €5.000+/mês e resolver casos que hoje te escapam
-- Estás farto de contar os cêntimos ao fim do mês e queres um caminho sério para a independência financeira
-- Queres resultados duradouros — não truques que duram 15 minutos
-- Vais trabalhar com comportamento animal (hotéis, creches, grooming) e queres elevar a tua prática
-- Estás disposto a estudar, a praticar e a comprometer-te a fundo
-- Queres construir um negócio independente com posicionamento digital sólido
+- Estás num trabalho que te esvazia e contas os cêntimos ao fim do mês
+- Adoras cães e queres transformar essa paixão numa carreira sólida
+- Queres acordar com propósito e controlar o teu próprio tempo
+- Queres construir reputação e independência financeira real
 
-**[Coluna 2 — checklist vermelho/cinza]**
+### Coluna B — Treinador canino em actividade
 
-**✗ Não é para ti se…**
+- Já trabalhas com cães, mas a agenda é instável e a facturação não escala
+- Os casos difíceis — agressividade, ansiedade de separação — continuam a derrotar-te
+- Comparas-te com outros treinadores nas redes e sentes-te para trás
+- Queres posicionamento digital sólido e facturação mensal estável
 
-- Procuras soluções rápidas sem esforço
-- Queres técnicas superficiais de obediência
-- Não estás disponível para estudar regularmente durante 6 meses
-- Não aceitas responsabilidade pelo teu próprio processo
-- Acreditas que o cão se resolve só com petiscos ou só com mão pesada
+**[Fecho — centrado, abaixo das colunas]**
+Se te revês em qualquer um destes dois perfis, continua a ler. O resto desta página foi escrito para ti.
 
 ---
 
-## 12. PRICE-BREAK — "Investimento vs. Retorno" *(secção terra — NOVA)*
+## 5. PROBLEM — "O treino canino em Portugal está partido em dois"
 
 **[Tag]**
-O Verdadeiro Custo
+A Realidade do Mercado
 
-**[H2 — "o teu primeiro mês" em itálico dourado]**
-Não é uma despesa. *É o teu primeiro mês de facturação.*
+**[H2]**
+O treino canino em Portugal está partido em dois. E no meio ficam as famílias.
 
 **[Parágrafo 1]**
-Vamos ser directos sobre o dinheiro.
+De um lado, os treinadores do espectáculo. Vídeos virais, cães impecáveis em câmara — e zero transformação real quando o telemóvel se desliga.
 
 **[Parágrafo 2]**
-€2.400 à vista é, em média, o que um dos nossos alunos factura no **primeiro mês** depois de completar a certificação. Alguns facturam menos. Outros chegam aos €6.000 logo à partida.
+Do outro, a abordagem suave — tudo se resolve com petiscos e carinho. Mas o cão ansioso continua ansioso, o agressivo continua agressivo e a família continua em guerra dentro de casa.
 
 **[Parágrafo 3]**
-A partir do 7º mês, **cada euro que recebes é lucro líquido sobre a tua formação.** O investimento paga-se uma vez. A facturação repete-se todos os meses — durante o resto da tua carreira.
+No meio, milhares de famílias portuguesas vivem em conflito diário com os seus cães. E tu — treinador em actividade ou aspirante — ficas preso a abordagens superficiais que não resolvem nada a fundo. Sem resultados duradouros. Sem carreira sólida.
 
-**[Bloco comparativo — 2 cards lado a lado]**
+**[Quote em destaque]**
+> "O problema raramente está no cão. Está na relação entre o cão e a família à volta. Enquanto ninguém tratar disso, o caos continua."
+>
+> — Ricardo Calheiros
 
-**Card A (cinzento, apagado)**
-**O que custa ficar parado**
-- Mais um ano no mesmo trabalho que te esvazia
-- A contar os cêntimos ao fim do mês
-- A ver outros treinadores crescer nas redes
-- Potencial desperdiçado, outra vez
-
-**Card B (dourado, iluminado)**
-**O que custa avançar**
-- €2.400 uma única vez (plano Grupo à vista)
-- 6 meses de formação intensiva
-- Um modelo de negócio pronto a executar
-- Facturação entre €2.000 e €30.000+/mês
-
-**[Fecho]**
-O preço é alto por design. É um filtro. Quem está disponível para este investimento é quem leva o treino canino a sério.
+**[Fecho — parágrafo curto]**
+Esta certificação nasce exactamente para preencher esse vazio.
 
 ---
 
-## 13. LEARN — "Currículo" *(secção preta)*
+## 6. PROMISE — "O que vais ter no fim dos 6 meses"
+
+**[Tag]**
+A Transformação
+
+**[H2]**
+Seis meses. Três transformações reais.
+
+**[Lead]**
+Não vendemos sonhos. Estas são as três transformações concretas que os alunos do Ricardo reportam quando terminam a certificação.
+
+**[3 cards — grid horizontal]**
+
+### 01 · Independência e propósito
+
+Acordas a fazer o que amas. Escolhes os teus clientes. Defines o teu horário. Trabalhas com um sentido que o emprego antigo nunca te deu. Estás presente para a tua família — porque agora controlas o teu tempo.
+
+### 02 · Técnica com resultados reais
+
+Aprendes a resolver os casos que outros treinadores dão por perdidos: agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos. Vais ver transformações que não pensavas serem possíveis.
+
+### 03 · Projecção digital e facturação
+
+Sais com um modelo de negócio pronto a executar, um posicionamento digital definido e um plano claro para facturares entre €2.000 e €30.000+ por mês — consoante o teu ritmo, o teu compromisso e a tua capacidade de escalar.
+
+**[Nota — microtexto centrado abaixo dos cards]**
+Estes valores são os reportados por alunos reais em actividade. Não há garantias — o resultado depende do compromisso, do trabalho e da capacidade de cada aluno para aplicar o que aprende.
+
+---
+
+## 7. STORY — "Quem é o Ricardo"
+
+**[Tag]**
+A História
+
+**[H2]**
+Não me tornei treinador porque era o meu sonho. Tornei-me porque precisei.
+
+**[Foto lateral sticky — retrato do Ricardo]**
+
+**[Parágrafo 1]**
+Sou o Ricardo Calheiros. Natural do Porto, casado, pai de dois meninos.
+
+**[Parágrafo 2]**
+Durante vários anos trabalhei como terapeuta de casal e Coach. O meu dia-a-dia era sentar-me em frente a sistemas humanos — casais, famílias, pessoas com dores emocionais profundas. Aprendi a ler dinâmicas, padrões e o que move as pessoas por dentro.
+
+**[Parágrafo 3]**
+Depois veio um problema grave de saúde que mudou tudo. Tive de reinventar o meu trabalho praticamente do zero.
+
+**[Parágrafo 4]**
+Encontrei no treino canino o novo caminho — mas trouxe comigo dez anos de experiência em terapia familiar e coaching humano. E foi aí que percebi exactamente o que faltava ao treino canino tal como é feito na maior parte do mercado.
+
+**[Quote em destaque]**
+> "Percebi que não estava a treinar só o cão. Estava a tratar o sistema inteiro à volta dele. E é aí que mora quase toda a solução dos casos difíceis."
+
+**[Parágrafo final]**
+Hoje sou treinador canino há dez anos. Uso o Koehler Method of Dog Training como método de preferência — e sou um dos apenas **4 treinadores reconhecidos neste método em toda a Europa.**
+
+**[Badge dourada]**
+Koehler Method of Dog Training · 1 dos 4 treinadores reconhecidos na Europa
+
+---
+
+## 8. METHOD — "O método, em 3 dimensões"
+
+**[Tag]**
+O Método
+
+**[H2]**
+Porque os problemas do cão raramente são só do cão.
+
+**[Lead]**
+Treinar o cão isoladamente não resolve. O cão vive inserido num sistema familiar — e esse sistema é metade do problema e praticamente toda a solução. Esta certificação ensina-te a trabalhar as três dimensões ao mesmo tempo.
+
+**[3 Pilares · grid horizontal · ícones]**
+
+### 01 · Ciência do comportamento canino
+
+Fundamentos sólidos de como o cão aprende, do que responde e como comunica. Base técnica rigorosa — incluindo o Koehler Method of Dog Training ensinado pelo único formador reconhecido em Portugal.
+
+### 02 · Psicologia humana aplicada
+
+Como os padrões emocionais dos donos criam, perpetuam ou agravam os problemas do cão. Como ler esses padrões e como intervires sem ferir a relação. É aqui que mora a causa raiz da maioria dos casos difíceis.
+
+### 03 · Dinâmica do sistema familiar
+
+Reorganizar a rotina, os limites e os papéis dentro de casa para que o trabalho com o cão segure na vida real — e não só durante a sessão. Esta é a peça que quase nenhuma formação em Portugal ensina.
+
+**[Nota importante — bloco destacado, tipografia menor]**
+A vertente de "coaching" desta certificação refere-se a esta abordagem aplicada — ferramentas de coaching usadas por ti, futuro treinador, para intervires no sistema familiar do cão. Não é uma formação em coaching humano nem em desenvolvimento de carreira. Sais daqui como treinador canino de elite — com ferramentas que a maioria dos outros treinadores nunca toca.
+
+---
+
+## 9. LEARN — "O que vais dominar"
 
 **[Tag]**
 Currículo
 
-**[H2 — "6 meses" em itálico dourado]**
-O que vais aprender ao longo dos *6 meses.*
+**[H2]**
+O que vais dominar ao longo dos 6 meses.
 
-**[8 módulos numerados — grid 2 colunas]**
+**[Lead]**
+O currículo foi desenhado para cobrir tudo aquilo que um treinador canino de elite precisa de dominar — da técnica mais rigorosa ao modelo de negócio que sustenta a carreira.
 
-**01. Psicologia profunda do comportamento canino**
-Compreender o cão muito além dos sintomas. A base científica real.
+**[8 módulos numerados · grid 2 colunas]**
 
-**02. Padrões emocionais dos donos**
-Como o humano cria, mantém ou perpetua o problema — e como intervir.
+### 01 · Comportamento canino a fundo
+Leitura, comunicação e aprendizagem do cão. Base científica sólida para que cada decisão técnica tenha um porquê claro.
 
-**03. Estruturas de treino equilibradas**
-Protocolos que funcionam na vida real, não só dentro da sessão controlada.
+### 02 · Padrões emocionais dos donos
+Identificação e intervenção na peça humana do problema. Como a ansiedade, o medo ou a impulsividade do dono moldam o comportamento do cão — e como lidar com isso.
 
-**04. Reorganização de sistemas familiares**
-Intervir na relação cão-família como um todo. A peça que falta.
+### 03 · Estruturas de treino equilibradas
+Protocolos que funcionam fora da sessão, no quotidiano real da família. Obediência sólida que se mantém quando ninguém está a ver.
 
-**05. Coaching aplicado ao treino canino**
-Ferramentas de mudança comportamental humana adaptadas ao teu trabalho.
+### 04 · Casos complexos
+Agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos. Os casos onde a maioria dos treinadores desiste e que aqui vais aprender a ler e a resolver.
 
-**06. Casos complexos**
-Agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos.
+### 05 · Koehler Method of Dog Training
+O método de preferência do Ricardo, ensinado pelo único formador reconhecido em Portugal e um dos apenas 4 na Europa.
 
-**07. Koehler Method**
-Única metodologia reconhecida em Portugal, com o único formador certificado.
+### 06 · Coaching aplicado ao sistema familiar
+Ferramentas de intervenção no ambiente humano do cão. Como fazer a família toda caminhar na mesma direcção — sem a qual nenhum treino aguenta.
 
-**08. Negócio, posicionamento e facturação**
-Como criar o teu modelo, posicionar-te no digital e atingir a facturação que queres.
+### 07 · Modelo de negócio para treinador canino
+Preços, serviços, funil de clientes, margens. Tudo o que precisas para transformar a tua prática numa operação rentável e estável.
+
+### 08 · Posicionamento digital e conteúdo
+Como construíres uma presença online que te traz clientes e te permite facturar €2.000 a €30.000+/mês. O lado do negócio que distingue quem sobrevive de quem escala.
 
 ---
 
-## 14. INCLUDES — "O Que Está Incluído" *(secção terra)*
+## 10. INCLUDES — "O que está incluído"
 
 **[Tag]**
 Incluído
 
-**[H2 — "te tornares profissional" em itálico dourado]**
-Tudo o que precisas para *te tornares profissional.*
+**[H2]**
+Tudo o que precisas para saíres daqui como profissional de elite.
 
-**[6 cards — grid 3x2, ícones dourados]**
+**[6 cards · grid 3x2 · ícones]**
 
-**Card 1 — Aulas ao Vivo · Zoom**
-Sessões semanais às sextas-feiras às 9h. Ficam gravadas para revisão sem limite de tempo.
+### Aulas ao vivo · Zoom
+Sessões semanais com o Ricardo às sextas-feiras, às 9h. Em tempo real e com interacção directa.
 
-**Card 2 — Comunidade MeWe**
-Grupo privado com acompanhamento permanente e feedback contínuo durante toda a semana.
+### Gravações sem limite de tempo
+Revês cada aula quando quiseres e as vezes que quiseres. Ficam contigo antes, durante e depois da certificação.
 
-**Card 3 — Análise de Vídeos**
-A cada 2 dias envias o teu trabalho. O Ricardo avalia e corrige em tempo real.
+### Acompanhamento semanal
+Comunidade privada com feedback contínuo, partilha de casos e correcção permanente entre aulas.
 
-**Card 4 — Material Completo**
-Conteúdos escritos, vídeos demonstrativos e recursos que ficam teus para sempre.
+### Análise do teu trabalho em campo
+Envias vídeos do teu trabalho com o cão, o Ricardo vê, comenta e corrige. Aprendes com erros reais — os teus.
 
-**Card 5 — Prova Prática Final**
-Avaliação com cão em contexto real — com e sem trela. Certificado oficial de conclusão.
+### Exame prático final
+Avaliação com cão em contexto real — controlo com e sem trela. Não passas porque pagaste. Passas porque sabes.
 
-**Card 6 — Bónus Exclusivos**
-Gravação de 1 dia de imersão em Agressividade + 1 dia completo em Marketing e Estratégia de Negócio.
+### Certificado oficial de conclusão
+A tua credencial formal da Certificação em Coaching e Treino Canino. A prova visível de quem és e de onde vens.
 
 ---
 
-## 15. TESTIMONIALS *(secção preta)*
+## 11. BONUS — "Dois bónus por dentro"
+
+**[Tag]**
+Bónus
+
+**[H2]**
+Dois dias de imersão — gravados e teus para sempre.
+
+**[Lead]**
+Além do currículo principal, qualquer aluno — Turma ou Individual — recebe dois dias completos de imersão já gravados e disponíveis desde o primeiro dia da certificação.
+
+**[2 cards grandes lado a lado]**
+
+### Bónus 1 · Imersão em Agressividade
+
+Um dia completo dedicado a um dos temas mais difíceis e mais procurados do mercado. Agressividade a pessoas, a outros cães, por recurso, por medo. O Ricardo é especialista nesta área e é por aqui que muitos alunos começam a diferenciar-se no mercado.
+
+### Bónus 2 · Imersão em Marketing e Estratégia de Negócio
+
+Um dia completo sobre como montar o teu negócio, posicionar-te no digital, cobrar o que vales e construir uma agenda estável. O atalho directo para transformares o que aprendes em facturação real.
+
+**[Nota — microtexto]**
+Ambos os bónus são entregues logo no início da certificação. Não estão dependentes de progressão nem de upgrade.
+
+---
+
+## 12. TESTIMONIALS — "Quem já fez esta viagem"
 
 **[Tag]**
 Alunos
 
-**[H2 — "já fez esta viagem" em itálico dourado]**
-O que dizem quem *já fez esta viagem.*
+**[H2]**
+O que dizem quem já passou por aqui.
 
-**[Grid 2x2 — 4 depoimentos com 5 estrelas dourado]**
+**[Grid 2x2 · 4 depoimentos — PLACEHOLDERS a preencher]**
 
 **Depoimento 1**
 ★★★★★
-> "Mudou completamente a forma como vejo o treino. Não aprendi comandos — aprendi a ler o cão e o dono. Os meus resultados são incomparáveis."
+> `[DEPOIMENTO 1 — citação directa do aluno, 2-4 linhas, resultado concreto]`
 >
-> **Célia Arraiolos** — Aluna da Certificação
+> **[Nome do aluno]** — [contexto: aspirante que mudou de carreira / treinador que escalou / etc.]
 
 **Depoimento 2**
 ★★★★★
-> "O Ricardo está sempre presente, dá feedback real, corrige-te sempre que é preciso. Nunca me senti perdida. Sinto-me agora uma profissional a sério."
+> `[DEPOIMENTO 2 — citação directa do aluno, 2-4 linhas, resultado concreto]`
 >
-> **Margarida Castro** — Aluna da Certificação
+> **[Nome do aluno]** — [contexto]
 
 **Depoimento 3**
 ★★★★★
-> "Entrei como hobbysta e saí com um negócio. Em menos de 6 meses já facturava acima dos €3.000. A formação muda a tua cabeça antes de mudar a tua conta bancária."
+> `[DEPOIMENTO 3 — citação directa do aluno, 2-4 linhas, resultado concreto]`
 >
-> **Cíntia Silva** — Aluna da Certificação
+> **[Nome do aluno]** — [contexto]
 
 **Depoimento 4**
 ★★★★★
-> "Já tinha feito outros cursos antes. Esta certificação colocou tudo em perspectiva. É o único sítio em Portugal com esta profundidade."
+> `[DEPOIMENTO 4 — citação directa do aluno, 2-4 linhas, resultado concreto]`
 >
-> **Aluno da Turma 2024** — Nome reservado a pedido
+> **[Nome do aluno]** — [contexto]
 
 **[Nota abaixo do grid]**
-Vê os testemunhos em vídeo em **ricardocalheiros.com**
+A prova social em vídeo está disponível nas redes sociais do Ricardo.
 
 ---
 
-## 16. PRICING *(secção preta com "€" gigante decorativo)*
+## 13. PRICING — "Dois formatos. Um compromisso"
 
 **[Tag]**
 Investimento
 
-**[H2 — "acompanhamento" em itálico dourado]**
-Escolhe o nível de *acompanhamento* certo para ti.
+**[H2]**
+Dois formatos. Um compromisso.
 
 **[Lead]**
-Ambos os planos incluem os mesmos conteúdos, o mesmo currículo e a mesma certificação. A diferença está no nível de personalização e de atenção directa do Ricardo.
+Os dois formatos incluem exactamente o mesmo currículo, os mesmos bónus, o mesmo exame final e o mesmo certificado oficial. A diferença está no nível de atenção directa do Ricardo e no ritmo em que avanças.
+
+**[Bloco de racional — antes dos cards, em destaque]**
+O preço é alto por design. É um filtro. O que investes aqui é, em média, o que um dos nossos alunos factura no primeiro ou no segundo mês depois de terminar a certificação — desde que aplique a fundo o que aprendeu.
 
 **[Grid 2 colunas — cards de preço]**
 
 ---
 
-**[Plano 1 — Card Grupo]**
+### Plano 1 — Turma
 
-**Acompanhamento em Grupo**
+**Acompanhamento em grupo**
 
 **€370/mês** · 6 meses
-Total: €2.220
+Total: **€2.220**
 
-**✦ Pagamento integral: €2.000** *(poupas €220)*
+**À vista: €2.000** *(poupas €220)*
 
 **O que está incluído:**
-- Aulas semanais ao vivo (sextas, 9h)
-- Gravações de todas as aulas (sem limite de tempo)
-- Grupo MeWe com acompanhamento semanal
-- Análise de vídeos bi-semanal
-- Todo o material do curso
-- Prova prática final com cão em contexto real
-- Certificado oficial de conclusão
-- Bónus: imersão em Agressividade + Marketing
+- Aulas ao vivo semanais (Zoom, sextas às 9h)
+- Gravações de todas as aulas, sem limite de tempo
+- Comunidade privada com acompanhamento contínuo
+- Análise de vídeos do teu trabalho em campo
+- Exame prático final + certificado oficial
+- Bónus: Imersão em Agressividade + Imersão em Marketing e Negócio
 
-**[CTA]** Candidatar-me ao Grupo →
+**[CTA]**
+Candidatar-me ao Grupo →
 
 ---
 
-**[Plano 2 — Card Individual — "MAIS COMPLETO"]**
+### Plano 2 — Individual *[badge: MAIS COMPLETO]*
 
-**[Badge dourada topo do card]** ★ MAIS COMPLETO
-
-**Acompanhamento Individual**
+**Acompanhamento individual**
 
 **€470/mês** · 6 meses
-Total: €2.820
+Total: **€2.820**
 
-**✦ Pagamento integral: €2.400** *(poupas €420 — 15% de desconto)*
+**À vista: €2.400** *(poupas €420 · 15% de desconto)*
 
 **O que está incluído:**
-- Tudo o que está no plano em Grupo
-- **Acompanhamento individual e personalizado**
-- **Conteúdos analisados ao vivo contigo**
-- Feedback directo e contínuo do Ricardo
-- Possibilidade de sessões presenciais
-- Acesso prioritário ao Ricardo
-- **Mentoria & Shadowing incluídos** — acompanhas o Ricardo em campo
+- **Tudo o que está no plano Turma**
+- **Acompanhamento individual** — ritmo e foco adaptados ao teu ponto de partida
+- **Feedback directo e personalizado** do Ricardo, fora dos horários de grupo
+- **Possibilidade de sessões presenciais**
+- Acesso prioritário e atenção dedicada
 
-**[CTA]** Candidatar-me ao Individual →
-
----
-
-**[Pricing note — microtexto centrado abaixo dos cards]**
-**Candidatura:** Após preencheres o formulário, o Ricardo agenda uma reunião de avaliação. A inscrição conta como primeira mensalidade. Duração: 6 meses, prazo máximo 12 meses.
+**[CTA]**
+Candidatar-me ao Individual →
 
 ---
 
-## 17. FAQ *(secção terra, accordion)*
+**[Microtexto — centrado, abaixo dos cards]**
+A inscrição conta como primeira mensalidade. Duração: 6 meses (prazo máximo 12 meses). **Não há garantia de resultado** — o sucesso depende do compromisso e da entrega de cada aluno.
+
+---
+
+## 14. HOW-IT-WORKS — "Como funciona a candidatura"
 
 **[Tag]**
-Dúvidas Frequentes
+Processo
 
-**[H2 — "antes de cada turma" em itálico dourado]**
-As perguntas que recebemos *antes de cada turma.*
+**[H2]**
+Como entras — passo a passo.
 
-**[6 itens em accordion]**
+**[Lead]**
+Antes de entrares, queremos garantir que o formato faz sentido para ti — e que tu fazes sentido para a certificação. O processo é simples e directo.
 
-**01. O curso é online ou presencial?**
-Online via Zoom, sextas-feiras às 9h. Ficam todas as gravações disponíveis. No plano Individual existe a possibilidade de sessões presenciais com o Ricardo.
+**[4 passos — timeline horizontal]**
 
-**02. Fico com acesso às gravações?**
-Sim. Cada aula fica gravada e disponível para ti sem limite de tempo, antes, durante e depois da certificação.
+### Passo 1 · Preenches o formulário
+Leva cerca de 5 minutos. Contas-nos quem és, onde estás hoje e onde queres chegar.
 
-**03. É só para quem quer ser treinador profissional?**
-Não. Há alunos que querem iniciar carreira do zero, outros que já trabalham em hotéis, creches ou grooming e querem elevar a prática, e ainda quem simplesmente quer compreender o próprio cão a fundo. O rigor da formação é o mesmo para todos.
+### Passo 2 · O Ricardo analisa o teu perfil
+Percebe se estás no momento certo e qual dos formatos — Turma ou Individual — te serve melhor.
 
-**04. Como funciona o acompanhamento durante a semana?**
-Grupo privado no MeWe. A cada dois dias envias vídeos do teu trabalho para o Ricardo avaliar e corrigir — garantindo que estás sempre no caminho certo. No plano Individual, o feedback é directo e personalizado.
+### Passo 3 · Conversa curta e directa
+Agendamos uma chamada para tirares as tuas dúvidas e alinharmos expectativas. Sem pressão comercial. É uma conversa de verdade.
 
-**05. O certificado é reconhecido oficialmente?**
-Recebes um certificado oficial de conclusão da Certificação em Coaching e Treino Canino. É a credencial que te identifica como formado pelo único treinador Koehler reconhecido em Portugal.
+### Passo 4 · Se for um sim mútuo, reservas o teu lugar
+A inscrição conta como primeira mensalidade e entras oficialmente na próxima turma.
 
-**06. Consigo mesmo facturar entre €2.000 e €30.000/mês?**
-Estes valores são reportados por alunos reais. €2.000/mês é o que um treinador em part-time pode atingir. €30.000+/mês é para quem escala e aplica também o lado de negócio e posicionamento digital. A certificação dá-te as ferramentas completas — o resultado depende do teu compromisso. **Não há garantias** — e quem promete garantias, mente.
+**[Nota — microtexto]**
+Isto não é venda sob pressão. Muitas vezes é o próprio candidato que percebe na chamada que ainda não é o momento — e isso também está bem.
 
 ---
 
-## 18. FINAL CTA *(secção preta com brilho dourado)*
+## 15. FAQ — "Perguntas Frequentes"
 
-**[H2 — "completamente diferente" em itálico dourado, muito grande]**
-A tua vida pode ser *completamente diferente* daqui a 6 meses.
+**[Tag]**
+Perguntas Frequentes
 
-**[Subtítulo]**
-A próxima turma começa a **9 de Maio de 2026**. As vagas são intencionalmente limitadas — por design, não por marketing. Quando fecham, fecham.
+**[H2]**
+As perguntas que recebo antes de cada turma.
 
-**[CTA primário — botão dourado gigante]**
-Preencher a Minha Candidatura →
+**[7 itens em accordion]**
+
+### 01 · O curso é online ou presencial?
+As aulas ao vivo são online, via Zoom, às sextas-feiras às 9h. Todas ficam gravadas e disponíveis sem limite de tempo. No plano Individual existe a possibilidade de sessões presenciais combinadas directamente com o Ricardo.
+
+### 02 · Ficam-me as gravações das aulas?
+Sim. Cada aula fica gravada e fica contigo para sempre. Podes rever antes, durante e depois da certificação — quantas vezes precisares.
+
+### 03 · Há garantia de resultado?
+Não. Não há garantia e quem promete garantias nesta área, mente. O sucesso depende do compromisso e da entrega de cada aluno. O que nós garantimos é o conteúdo, a metodologia, o acompanhamento e o nível de exigência. O resto está nas tuas mãos.
+
+### 04 · Qual é a diferença real entre o plano Turma e o Individual?
+O currículo, os bónus, o exame final e o certificado são exactamente os mesmos. A diferença está no nível de atenção directa do Ricardo, no ritmo, no feedback personalizado e na possibilidade de sessões presenciais. Se queres o acompanhamento mais próximo possível, é o Individual. Se queres um excelente acompanhamento em grupo a um investimento mais leve, é a Turma.
+
+### 05 · Já sou treinador há alguns anos — isto é para mim?
+Sim. Uma parte significativa dos alunos chega já com prática no terreno e quer elevar a técnica, resolver casos difíceis e construir um modelo de negócio e posicionamento digital sérios. A certificação foi desenhada precisamente para também responder a esse perfil.
+
+### 06 · Vou mesmo conseguir facturar entre €2.000 e €30.000 por mês?
+Estes são os valores reportados por alunos reais. €2.000/mês é o que um treinador recém-formado consegue atingir em ritmo normal nos primeiros meses. Os €30.000+/mês são para quem aplica a fundo o lado de negócio e posicionamento e escala a sério. A certificação dá-te as ferramentas completas — o resultado depende da aplicação.
+
+### 07 · Posso pagar só em prestações?
+Sim. Tens duas opções em qualquer dos formatos: pagamento integral com desconto ou pagamento em 6 mensalidades sem desconto. A inscrição conta como primeira mensalidade.
+
+---
+
+## 16. FINAL CTA
+
+**[H2 gigante]**
+A tua próxima vida começa a 9 de Maio.
+
+**[Sub]**
+A próxima turma é limitada e a candidatura prévia é obrigatória. Quando fecha, fecha — e a seguinte fica para daqui a alguns meses.
+
+**[CTA primário — botão grande]**
+Candidatar-me Agora →
 
 **[Microtexto]**
-Após te candidatares, o Ricardo entra em contacto pessoalmente para agendar a reunião de avaliação. Sem pressão, sem truques — só uma conversa directa para perceber se esta certificação é para ti.
+Após a candidatura, o Ricardo entra em contacto pessoalmente para agendar a chamada de avaliação. Sem pressão, sem truques — só uma conversa directa.
 
 ---
 
-## 19. FOOTER
+## 17. FOOTER
 
-**[Logo]** Ricardo *Calheiros* Dog Trainer
+**[Logo]**
+Ricardo Calheiros Dog Trainer
+
+**[Links]**
+Política de Privacidade · Termos · Contacto
+
 © 2026 Ricardo Calheiros · Todos os direitos reservados
-**[Links]** Política de Privacidade · Termos · Contacto
 
 ---
 
@@ -508,36 +504,71 @@ Após te candidatares, o Ricardo entra em contacto pessoalmente para agendar a r
 
 ## ⚠️ A VALIDAR COM O CLIENTE
 
-Antes de publicar, o Ricardo tem de confirmar:
+Lista rigorosa de tudo o que precisa de confirmação, correcção ou inputs do Ricardo antes de publicar.
 
-### Datas
-- [ ] **Data de início da próxima turma** — usámos **9 de Maio de 2026** como placeholder. Confirmar data real.
-- [ ] **Horário das aulas** — confirmámos sextas-feiras às 9h. Validar.
-
-### Claims legais (REMOVIDAS do rascunho — precisam de decisão)
-- [ ] **"Decreto-Lei n.º 95/92 · Ministério da Educação nível licenciatura"** — REMOVIDO. Se o Ricardo tiver documentação oficial a suportar esta claim, pode voltar a entrar.
-- [ ] **"Certificado reconhecido pelo Ministério do Emprego"** — REMOVIDO. Substituído por "certificado oficial de conclusão". Mesma nota: se houver documento oficial, pode ser reintroduzido com prova.
-- [ ] **"Único treinador Koehler Method em Portugal · 1 dos 4 na Europa"** — MANTIDO (confirmado no briefing). Confirmar se há documento/certificado que comprove oficialmente.
-
-### Testemunhos
-- [ ] **Célia Arraiolos, Margarida Castro, Cíntia Silva** — confirmar se os nomes reais podem ser usados publicamente ou se é preciso autorização escrita.
-- [ ] **Aluno da Turma 2024** — confirmar nome real ou manter anonimato.
-- [ ] **Vídeos dos testemunhos** — confirmar se existem e podem ser integrados na LP (fazemos grid de vídeo em vez de quote se sim).
-- [ ] **Valores específicos** (ex: €3.000 da Cíntia) — confirmar com ela antes de publicar.
+### Datas e operacional
+- [ ] **Data de início da próxima turma** — usámos **9 de Maio de 2026** como placeholder. Confirmar a data real.
+- [ ] **Horário das aulas** — usámos sextas-feiras às 9h (vem da LP actual dele, não do forms). Confirmar.
+- [ ] **Frequência das aulas** — semanal? (assumido). Confirmar.
+- [ ] **Plataforma da comunidade privada** — a LP actual dele menciona MeWe; o forms não diz. Confirmar.
 
 ### Preços e condições
-- [ ] **€370/mês × 6 = €2.220** (Grupo) · à vista **€2.000** (poupa €220) — confirmar.
-- [ ] **€470/mês × 6 = €2.820** (Individual) · à vista **€2.400** (poupa €420, 15%) — confirmar.
-- [ ] **Desconto exacto à vista** (se é 10%, 15% ou outro) — confirmar.
-- [ ] **Política sem garantia** — confirmar que fica explícito e sem problemas legais.
+- [ ] **€370/mês × 6 = €2.220 · à vista €2.000** (Turma) — vem do default da instrução, não do forms. Confirmar.
+- [ ] **€470/mês × 6 = €2.820 · à vista €2.400** (Individual) — vem do default da instrução, não do forms. Confirmar.
+- [ ] **Desconto exacto à vista** (€220 Turma · €420/15% Individual) — confirmar.
+- [ ] **Prazo máximo de 12 meses** para completar — vem da LP actual, não do forms. Confirmar.
+- [ ] **A inscrição contar como primeira mensalidade** — vem da LP actual, não do forms. Confirmar se é mesmo assim.
 
-### Fotos e branding
-- [ ] Fotos do Ricardo (retrato, com cão, em aula, em família) — recolher.
-- [ ] Foto de cão olhando à câmara (para secção DOG FACE) — recolher.
-- [ ] Foto de família (secção FAMILY PHOTO) — autorização dos meninos?
-- [ ] Logo vectorial.
+### Claims e credenciais
+- [ ] **"1 de apenas 4 treinadores Koehler reconhecidos na Europa / único em Portugal"** — fiel ao forms (Ricardo escreveu exactamente isso). Confirmar se ele quer manter esta formulação exacta.
+- [ ] **"Certificado oficial de conclusão"** — NÃO foi usada nenhuma claim de reconhecimento por Ministério do Emprego ou Decreto-Lei (por instrução explícita). Se o Ricardo tiver documentação oficial que sustente um reconhecimento formal, pode ser introduzido.
+- [ ] **"10 anos de experiência como treinador canino"** — mencionado no briefing (não directamente no forms). Confirmar.
 
-### Funnel e captação
-- [ ] **Link do formulário de candidatura** — onde apontam os CTAs?
-- [ ] **Email automático pós-candidatura** — existe? Texto definido?
-- [ ] **Reunião de avaliação** — é o Ricardo pessoalmente que agenda? Via Calendly?
+### Testemunhos (TODOS PLACEHOLDERS)
+- [ ] **4 depoimentos** — o forms não fornece testemunhos. Todos os 4 cards estão como placeholders `[DEPOIMENTO — nome, contexto]`. O Ricardo precisa de fornecer:
+  - Citações reais (ipsis verbis) de alunos
+  - Nomes reais (com autorização escrita de cada aluno)
+  - Contexto curto de cada um
+  - Idealmente, fotografia ou vídeo de cada aluno
+- [ ] **Prova social em vídeo** — a nota no fim da secção presume que existe nas redes. Confirmar qual rede e se há link directo a colocar.
+
+### Conteúdo do currículo (confirmação fina)
+- [ ] **Módulo 04 · Casos complexos** — inclui "agressividade, ansiedade de separação, medo, comportamentos obsessivo-compulsivos" (fiel ao forms). Confirmar se há mais categorias.
+- [ ] **Módulo 05 · Koehler Method** — confirmar a profundidade com que entra no currículo (é módulo principal ou fio condutor?).
+- [ ] **Módulo 08 · Posicionamento digital e conteúdo** — confirmar se este módulo é ensinado ao longo do curso ou se o core vem só via bónus de Marketing.
+
+### Módulos adicionais vistos na LP actual mas NÃO no forms (PRECISAM DE DECISÃO)
+A LP actual do Ricardo em `ricardocalheiros.com` menciona conteúdos que o forms NÃO lista. Decidir se entram ou não (se entrarem, criar módulos dedicados):
+- [ ] **150 horas de prática intensiva** — aparece na LP actual, não no forms. Confirmar se existe e se queremos destacar o número.
+- [ ] **Coleiras eléctricas** — aparece na LP actual como módulo. Confirmar. (Nota: pode ser sensível — validar também se queremos comunicar publicamente.)
+- [ ] **Legislação e ética** — aparece na LP actual. Confirmar se é módulo.
+- [ ] **Saúde canina** — aparece na LP actual. Confirmar.
+- [ ] **Comunicação com clientes** — aparece na LP actual. Confirmar.
+- [ ] **Cachorros (módulo específico)** — aparece na LP actual. Confirmar.
+
+### Bónus
+- [ ] **Imersão em Agressividade + Imersão em Marketing e Negócio** — ambos confirmados no forms.
+- [ ] **Formato dos bónus** — o forms diz "gravação de 1 dia". Confirmar duração exacta e se há materiais complementares.
+- [ ] **Bónus entrarem em ambos os formatos (Turma e Individual)** — assumido por defeito. Confirmar.
+
+### Fotos, branding e visuais
+- [ ] Retrato profissional do Ricardo (para secção STORY)
+- [ ] Fotos do Ricardo em trabalho de campo com cães
+- [ ] Foto(s) de cão — olhar, posição de trabalho — para eventuais fullwidth
+- [ ] Logo vectorial (SVG) para nav e footer
+- [ ] Paleta de cores oficial e tipografia preferencial
+
+### Funil e integração
+- [ ] **URL do formulário de candidatura** — onde apontam todos os CTAs desta LP?
+- [ ] **Email automático pós-candidatura** — existe? Copy definida?
+- [ ] **Agendamento da chamada de avaliação** — é pelo Ricardo manualmente? Via Calendly? Outro?
+- [ ] **Política de Privacidade e Termos** — link ou texto a colocar no footer?
+- [ ] **Dados de contacto** — email/WhatsApp oficial para a página de contacto?
+
+### Tom e formulações
+- [ ] **"Tu/ti" como pronome ao longo de toda a página** — PT-PT informal mas respeitoso. Confirmar se o Ricardo concorda.
+- [ ] **Headlines propostos** — ver `headlines-alternativas.md` para 5 variações do H1 do Hero, 3 do CTA final e 3 de urgência. Escolher ou pedir ajustes.
+
+### Notas gerais
+- [ ] Toda a copy assume que o visitante aterra a frio (tráfego de anúncios). Se houver versões para aquecido ou remarketing, copiar e ajustar a entrada.
+- [ ] A palavra "coaching" é intencionalmente enquadrada como "abordagem aplicada ao treino canino" — nunca como formação em coaching humano. Confirmar que a leitura do Ricardo é esta.
